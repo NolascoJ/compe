@@ -1,0 +1,13 @@
+{
+  "modelo": "random_forest",
+  "origen": "confirmacion",
+  "params": {
+    "class_weight": null,
+    "max_depth": 14,
+    "max_features": 0.4,
+    "max_samples": 0.808024589718653,
+    "min_samples_leaf": 6,
+    "min_samples_split": 17,
+    "n_estimators": 469
+  }
+}

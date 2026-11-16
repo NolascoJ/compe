@@ -1,0 +1,23 @@
+{
+  "modelo": "bagging",
+  "familia": "Bagging",
+  "variante_preprocesamiento": "D",
+  "puntuacion": "proba",
+  "ba_val": 0.8477434295519917,
+  "ba_train": 0.8933717329861584,
+  "gap": 0.045628303434166684,
+  "ba_std": 0.010648306387055068,
+  "umbral": 0.393375795545347,
+  "roc_auc": 0.9283152332551019,
+  "f1": 0.8224692288369756,
+  "precision": 0.8245404180307228,
+  "recall": 0.8204084189426208,
+  "completados_detectados": 0.8750784401613626,
+  "fit_seconds": 16.258925199508667,
+  "ba_val_kfold_comun": 0.8661734869390687,
+  "inflado_por_copias": 0.018430057387077037,
+  "ba_val_sin_assigned": 0.8404223684149938,
+  "umbral_sin_assigned": 0.39696852249361214,
+  "combinaciones_probadas": 80,
+  "max_gap": 0.05
+}

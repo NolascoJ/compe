@@ -1,0 +1,23 @@
+{
+  "modelo": "gradient_boosting",
+  "familia": "Boosting",
+  "variante_preprocesamiento": "D",
+  "puntuacion": "proba",
+  "ba_val": 0.8532961180810117,
+  "ba_train": 0.8965418002982887,
+  "gap": 0.04324568221727698,
+  "ba_std": 0.005383527197120072,
+  "umbral": 0.358475431700641,
+  "roc_auc": 0.9377509919506248,
+  "f1": 0.8292276071609425,
+  "precision": 0.7905378542625092,
+  "recall": 0.8718992733650714,
+  "completados_detectados": 0.834692962796952,
+  "fit_seconds": 196.4252746105194,
+  "ba_val_kfold_comun": 0.870758666322399,
+  "inflado_por_copias": 0.017462548241387266,
+  "ba_val_sin_assigned": 0.8479675864150187,
+  "umbral_sin_assigned": 0.37243945217878416,
+  "combinaciones_probadas": 80,
+  "max_gap": 0.05
+}

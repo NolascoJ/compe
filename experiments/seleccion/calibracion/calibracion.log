@@ -1,0 +1,336 @@
+2026-11-10 14:39:06 INFO etapa=todo modelos=['logistic', 'ridge', 'linear_svc', 'knn', 'random_forest', 'bagging', 'gradient_boosting', 'hist_gradient_boosting'] assigned=auto jobs=4 codigo=57338175fd1d16a5
+2026-11-10 14:49:54 INFO etapa=todo modelos=['logistic', 'ridge', 'linear_svc', 'knn', 'random_forest', 'bagging', 'gradient_boosting', 'hist_gradient_boosting'] assigned=auto jobs=4 codigo=57338175fd1d16a5
+2026-11-10 14:49:55 INFO [logistic] 60 tareas pendientes de 60, 4 en paralelo
+2026-11-10 14:50:03 INFO   1/60 ajuste__logistic__con_assigned__cv__f0  7s
+2026-11-10 14:50:03 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:04 INFO   2/60 ajuste__logistic__con_assigned__cv__f1  8s
+2026-11-10 14:50:04 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:07 INFO   3/60 interno__logistic__con_assigned__cv__f1  11s  umbral 0.4941  BA interna 0.8300
+2026-11-10 14:50:07 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:07 INFO   4/60 interno__logistic__con_assigned__cv__f0  11s  umbral 0.4566  BA interna 0.8265
+2026-11-10 14:50:07 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:26 INFO etapa=todo modelos=['logistic', 'ridge', 'linear_svc', 'knn', 'random_forest', 'bagging', 'gradient_boosting', 'hist_gradient_boosting'] assigned=auto jobs=4 codigo=57338175fd1d16a5
+2026-11-10 14:50:28 INFO [logistic] 56 tareas pendientes de 60, 4 en paralelo
+2026-11-10 14:50:36 INFO   1/56 ajuste__logistic__con_assigned__cv__f3  7s
+2026-11-10 14:50:36 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:38 INFO   2/56 ajuste__logistic__con_assigned__cv__f2  9s
+2026-11-10 14:50:38 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:40 INFO   3/56 interno__logistic__con_assigned__cv__f3  11s  umbral 0.4865  BA interna 0.8260
+2026-11-10 14:50:40 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:41 INFO   4/56 interno__logistic__con_assigned__cv__f2  12s  umbral 0.4542  BA interna 0.8208
+2026-11-10 14:50:41 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:43 INFO   5/56 ajuste__logistic__con_assigned__cv__f4  8s
+2026-11-10 14:50:43 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:47 INFO   6/56 ajuste__logistic__sin_assigned__cv__f0  8s
+2026-11-10 14:50:47 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:52 INFO   7/56 ajuste__logistic__sin_assigned__cv__f1  8s
+2026-11-10 14:50:52 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:52 INFO   8/56 interno__logistic__sin_assigned__cv__f0  11s  umbral 0.4725  BA interna 0.8188
+2026-11-10 14:50:52 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:54 INFO   9/56 interno__logistic__con_assigned__cv__f4  16s  umbral 0.4379  BA interna 0.8223
+2026-11-10 14:50:54 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:50:58 INFO   10/56 interno__logistic__sin_assigned__cv__f1  11s  umbral 0.4849  BA interna 0.8230
+2026-11-10 14:50:58 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:01 INFO   11/56 ajuste__logistic__sin_assigned__cv__f2  9s
+2026-11-10 14:51:01 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:01 INFO   12/56 ajuste__logistic__sin_assigned__cv__f3  7s
+2026-11-10 14:51:01 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:05 INFO   13/56 interno__logistic__sin_assigned__cv__f2  13s  umbral 0.4642  BA interna 0.8114
+2026-11-10 14:51:05 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:09 INFO   14/56 interno__logistic__sin_assigned__cv__f3  11s  umbral 0.4543  BA interna 0.8178
+2026-11-10 14:51:09 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:09 INFO   15/56 ajuste__logistic__sin_assigned__cv__f4  8s
+2026-11-10 14:51:09 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:13 INFO   16/56 ajuste__logistic__con_assigned__eval_anio_2016  4s
+2026-11-10 14:51:13 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:15 INFO   17/56 ajuste__logistic__con_assigned__eval_anio_2015  10s
+2026-11-10 14:51:15 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:17 INFO   18/56 interno__logistic__sin_assigned__cv__f4  15s  umbral 0.4736  BA interna 0.8149
+2026-11-10 14:51:17 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:19 INFO   19/56 interno__logistic__con_assigned__eval_anio_2016  6s  umbral 0.4262  BA interna 0.8290
+2026-11-10 14:51:19 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:20 INFO   20/56 ajuste__logistic__con_assigned__eval_anio_2017  5s
+2026-11-10 14:51:20 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:24 INFO   21/56 interno__logistic__con_assigned__eval_anio_2015  15s  umbral 0.4690  BA interna 0.8148
+2026-11-10 14:51:24 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:27 INFO   22/56 interno__logistic__con_assigned__eval_anio_2017  10s  umbral 0.4796  BA interna 0.8434
+2026-11-10 14:51:27 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:28 INFO   23/56 ajuste__logistic__con_assigned__eval_resto  4s
+2026-11-10 14:51:28 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:29 INFO   24/56 ajuste__logistic__con_assigned__eval_PRT  10s
+2026-11-10 14:51:29 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:29 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:51:33 INFO   25/56 interno__logistic__con_assigned__eval_resto  6s  umbral 0.5799  BA interna 0.8701
+2026-11-10 14:51:33 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:39 INFO   26/56 interno__logistic__con_assigned__eval_PRT  19s  umbral 0.5489  BA interna 0.8103
+2026-11-10 14:51:39 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:39 WARNING     advertencia x3: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:51:40 INFO   27/56 ajuste__logistic__con_assigned__sin_locked__f0  12s
+2026-11-10 14:51:40 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:40 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:51:45 INFO   28/56 ajuste__logistic__con_assigned__sin_locked__f1  12s
+2026-11-10 14:51:45 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:45 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:51:46 INFO   29/56 interno__logistic__con_assigned__sin_locked__f0  18s  umbral 0.5123  BA interna 0.7840
+2026-11-10 14:51:46 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:46 WARNING     advertencia x2: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:51:52 INFO   30/56 ajuste__logistic__con_assigned__sin_locked__f2  12s
+2026-11-10 14:51:52 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:52 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:51:58 INFO   31/56 ajuste__logistic__con_assigned__sin_locked__f3  12s
+2026-11-10 14:51:59 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:51:59 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:01 INFO   32/56 interno__logistic__con_assigned__sin_locked__f1  22s  umbral 0.4945  BA interna 0.7770
+2026-11-10 14:52:01 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:01 WARNING     advertencia x3: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:02 INFO   33/56 interno__logistic__con_assigned__sin_locked__f2  17s  umbral 0.5045  BA interna 0.7820
+2026-11-10 14:52:02 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:02 WARNING     advertencia x2: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:11 INFO   34/56 ajuste__logistic__con_assigned__sin_locked__f4  12s
+2026-11-10 14:52:11 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:11 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:12 INFO   35/56 ajuste__logistic__sin_assigned__eval_anio_2015  10s
+2026-11-10 14:52:12 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:14 INFO   36/56 interno__logistic__con_assigned__sin_locked__f3  22s  umbral 0.4679  BA interna 0.7730
+2026-11-10 14:52:14 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:14 WARNING     advertencia x3: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:17 INFO   37/56 ajuste__logistic__sin_assigned__eval_anio_2016  4s
+2026-11-10 14:52:17 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:18 INFO   38/56 interno__logistic__con_assigned__sin_locked__f4  17s  umbral 0.5050  BA interna 0.7826
+2026-11-10 14:52:18 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:18 WARNING     advertencia x2: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:19 INFO   39/56 interno__logistic__sin_assigned__eval_anio_2016  6s  umbral 0.5123  BA interna 0.8251
+2026-11-10 14:52:19 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:22 INFO   40/56 ajuste__logistic__sin_assigned__eval_anio_2017  5s
+2026-11-10 14:52:22 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:25 INFO   41/56 interno__logistic__sin_assigned__eval_anio_2015  15s  umbral 0.4815  BA interna 0.8103
+2026-11-10 14:52:25 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:29 INFO   42/56 interno__logistic__sin_assigned__eval_anio_2017  10s  umbral 0.4879  BA interna 0.8390
+2026-11-10 14:52:29 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:29 INFO   43/56 ajuste__logistic__sin_assigned__eval_PRT  10s
+2026-11-10 14:52:29 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:29 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:30 INFO   44/56 ajuste__logistic__sin_assigned__eval_resto  4s
+2026-11-10 14:52:30 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:34 INFO   45/56 interno__logistic__sin_assigned__eval_resto  6s  umbral 0.5487  BA interna 0.8674
+2026-11-10 14:52:34 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:40 INFO   46/56 interno__logistic__sin_assigned__eval_PRT  18s  umbral 0.5347  BA interna 0.8062
+2026-11-10 14:52:40 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:40 WARNING     advertencia x3: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:41 INFO   47/56 ajuste__logistic__sin_assigned__sin_locked__f0  12s
+2026-11-10 14:52:41 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:41 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:47 INFO   48/56 ajuste__logistic__sin_assigned__sin_locked__f1  12s
+2026-11-10 14:52:47 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:47 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:47 INFO   49/56 interno__logistic__sin_assigned__sin_locked__f0  18s  umbral 0.4658  BA interna 0.7748
+2026-11-10 14:52:47 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:47 WARNING     advertencia x2: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:52:53 INFO   50/56 ajuste__logistic__sin_assigned__sin_locked__f2  12s
+2026-11-10 14:52:53 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:52:53 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:53:00 INFO   51/56 ajuste__logistic__sin_assigned__sin_locked__f3  12s
+2026-11-10 14:53:00 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:53:00 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:53:03 INFO   52/56 interno__logistic__sin_assigned__sin_locked__f1  23s  umbral 0.4788  BA interna 0.7691
+2026-11-10 14:53:03 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:53:03 WARNING     advertencia x3: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:53:05 INFO   53/56 interno__logistic__sin_assigned__sin_locked__f2  18s  umbral 0.4716  BA interna 0.7722
+2026-11-10 14:53:05 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:53:05 WARNING     advertencia x2: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:53:12 INFO   54/56 ajuste__logistic__sin_assigned__sin_locked__f4  12s
+2026-11-10 14:53:12 WARNING     advertencia x1: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:53:12 WARNING     advertencia x1: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:53:14 INFO   55/56 interno__logistic__sin_assigned__sin_locked__f3  21s  umbral 0.4841  BA interna 0.7637
+2026-11-10 14:53:14 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:53:14 WARNING     advertencia x3: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:53:18 INFO   56/56 interno__logistic__sin_assigned__sin_locked__f4  14s  umbral 0.4666  BA interna 0.7728
+2026-11-10 14:53:18 WARNING     advertencia x3: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt
+2026-11-10 14:53:18 WARNING     advertencia x2: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+2026-11-10 14:53:18 INFO [logistic] listo en 2.8 min
+2026-11-10 14:53:18 INFO [ridge] 10 tareas pendientes de 10, 4 en paralelo
+2026-11-10 14:53:18 INFO   1/10 ajuste__ridge__con_assigned__cv__f0  0s
+2026-11-10 14:53:18 INFO   2/10 ajuste__ridge__con_assigned__cv__f1  0s
+2026-11-10 14:53:19 INFO   3/10 interno__ridge__con_assigned__cv__f0  1s  umbral -0.0358  BA interna 0.8228
+2026-11-10 14:53:19 INFO   4/10 interno__ridge__con_assigned__cv__f1  1s  umbral -0.0821  BA interna 0.8236
+2026-11-10 14:53:19 INFO   5/10 ajuste__ridge__con_assigned__cv__f3  0s
+2026-11-10 14:53:19 INFO   6/10 ajuste__ridge__con_assigned__cv__f2  0s
+2026-11-10 14:53:20 INFO   7/10 ajuste__ridge__con_assigned__cv__f4  0s
+2026-11-10 14:53:20 INFO   8/10 interno__ridge__con_assigned__cv__f2  2s  umbral 0.0149  BA interna 0.8167
+2026-11-10 14:53:21 INFO   9/10 interno__ridge__con_assigned__cv__f3  2s  umbral 0.0107  BA interna 0.8202
+2026-11-10 14:53:21 INFO   10/10 interno__ridge__con_assigned__cv__f4  2s  umbral 0.0007  BA interna 0.8186
+2026-11-10 14:53:21 INFO [ridge] listo en 0.1 min
+2026-11-10 14:53:21 INFO [linear_svc] 10 tareas pendientes de 10, 4 en paralelo
+2026-11-10 14:53:21 INFO   1/10 ajuste__linear_svc__con_assigned__cv__f0  0s
+2026-11-10 14:53:21 INFO   2/10 ajuste__linear_svc__con_assigned__cv__f1  0s
+2026-11-10 14:53:21 INFO   3/10 ajuste__linear_svc__con_assigned__cv__f2  0s
+2026-11-10 14:53:22 INFO   4/10 ajuste__linear_svc__con_assigned__cv__f3  0s
+2026-11-10 14:53:23 INFO   5/10 interno__linear_svc__con_assigned__cv__f0  2s  umbral -0.1697  BA interna 0.8234
+2026-11-10 14:53:23 INFO   6/10 interno__linear_svc__con_assigned__cv__f2  2s  umbral -0.1154  BA interna 0.8174
+2026-11-10 14:53:23 INFO   7/10 ajuste__linear_svc__con_assigned__cv__f4  0s
+2026-11-10 14:53:23 INFO   8/10 interno__linear_svc__con_assigned__cv__f3  2s  umbral -0.1133  BA interna 0.8203
+2026-11-10 14:53:24 INFO   9/10 interno__linear_svc__con_assigned__cv__f1  2s  umbral -0.1374  BA interna 0.8229
+2026-11-10 14:53:24 INFO   10/10 interno__linear_svc__con_assigned__cv__f4  1s  umbral -0.1533  BA interna 0.8178
+2026-11-10 14:53:24 INFO [linear_svc] listo en 0.1 min
+2026-11-10 14:53:24 INFO [knn] 10 tareas pendientes de 10, 1 en paralelo
+2026-11-10 14:53:28 INFO   1/10 ajuste__knn__con_assigned__cv__f0  4s
+2026-11-10 14:53:38 INFO   2/10 interno__knn__con_assigned__cv__f0  10s  umbral 0.4884  BA interna 0.7984
+2026-11-10 14:53:42 INFO   3/10 ajuste__knn__con_assigned__cv__f1  4s
+2026-11-10 14:53:52 INFO   4/10 interno__knn__con_assigned__cv__f1  11s  umbral 0.4751  BA interna 0.8120
+2026-11-10 14:53:56 INFO   5/10 ajuste__knn__con_assigned__cv__f2  4s
+2026-11-10 14:54:06 INFO   6/10 interno__knn__con_assigned__cv__f2  10s  umbral 0.4784  BA interna 0.8103
+2026-11-10 14:54:10 INFO   7/10 ajuste__knn__con_assigned__cv__f3  4s
+2026-11-10 14:54:20 INFO   8/10 interno__knn__con_assigned__cv__f3  10s  umbral 0.5050  BA interna 0.8037
+2026-11-10 14:54:24 INFO   9/10 ajuste__knn__con_assigned__cv__f4  4s
+2026-11-10 14:54:34 INFO   10/10 interno__knn__con_assigned__cv__f4  10s  umbral 0.5083  BA interna 0.8091
+2026-11-10 14:54:34 INFO [knn] listo en 1.2 min
+2026-11-10 14:54:34 INFO [random_forest] 10 tareas pendientes de 10, 1 en paralelo
+2026-11-10 14:54:37 INFO   1/10 ajuste__random_forest__con_assigned__cv__f0  3s
+2026-11-10 14:54:45 INFO   2/10 interno__random_forest__con_assigned__cv__f0  8s  umbral 0.4613  BA interna 0.8393
+2026-11-10 14:54:49 INFO   3/10 ajuste__random_forest__con_assigned__cv__f1  3s
+2026-11-10 14:54:57 INFO   4/10 interno__random_forest__con_assigned__cv__f1  8s  umbral 0.4530  BA interna 0.8457
+2026-11-10 14:55:00 INFO   5/10 ajuste__random_forest__con_assigned__cv__f2  3s
+2026-11-10 14:55:08 INFO   6/10 interno__random_forest__con_assigned__cv__f2  8s  umbral 0.4338  BA interna 0.8354
+2026-11-10 14:55:12 INFO   7/10 ajuste__random_forest__con_assigned__cv__f3  3s
+2026-11-10 14:55:21 INFO   8/10 interno__random_forest__con_assigned__cv__f3  9s  umbral 0.4441  BA interna 0.8396
+2026-11-10 14:55:24 INFO   9/10 ajuste__random_forest__con_assigned__cv__f4  4s
+2026-11-10 14:55:32 INFO   10/10 interno__random_forest__con_assigned__cv__f4  8s  umbral 0.4582  BA interna 0.8418
+2026-11-10 14:55:32 INFO [random_forest] listo en 1.0 min
+2026-11-10 14:55:32 INFO [bagging] 10 tareas pendientes de 10, 1 en paralelo
+2026-11-10 14:55:37 INFO   1/10 ajuste__bagging__con_assigned__cv__f0  5s
+2026-11-10 14:55:43 INFO   2/10 interno__bagging__con_assigned__cv__f0  6s  umbral 0.3935  BA interna 0.8385
+2026-11-10 14:55:45 INFO   3/10 ajuste__bagging__con_assigned__cv__f1  2s
+2026-11-10 14:55:51 INFO   4/10 interno__bagging__con_assigned__cv__f1  6s  umbral 0.3840  BA interna 0.8422
+2026-11-10 14:55:53 INFO   5/10 ajuste__bagging__con_assigned__cv__f2  2s
+2026-11-10 14:56:00 INFO   6/10 interno__bagging__con_assigned__cv__f2  6s  umbral 0.3804  BA interna 0.8316
+2026-11-10 14:56:02 INFO   7/10 ajuste__bagging__con_assigned__cv__f3  2s
+2026-11-10 14:56:08 INFO   8/10 interno__bagging__con_assigned__cv__f3  6s  umbral 0.3831  BA interna 0.8392
+2026-11-10 14:56:10 INFO   9/10 ajuste__bagging__con_assigned__cv__f4  2s
+2026-11-10 14:56:16 INFO   10/10 interno__bagging__con_assigned__cv__f4  6s  umbral 0.3689  BA interna 0.8402
+2026-11-10 14:56:16 INFO [bagging] listo en 0.7 min
+2026-11-10 14:56:16 INFO [gradient_boosting] 60 tareas pendientes de 60, 4 en paralelo
+2026-11-10 14:56:51 INFO   1/60 ajuste__gradient_boosting__con_assigned__cv__f1  34s
+2026-11-10 14:56:51 INFO   2/60 ajuste__gradient_boosting__con_assigned__cv__f0  34s
+2026-11-10 14:57:25 INFO   3/60 ajuste__gradient_boosting__con_assigned__cv__f2  34s
+2026-11-10 14:57:26 INFO   4/60 interno__gradient_boosting__con_assigned__cv__f0  69s  umbral 0.4236  BA interna 0.8472
+2026-11-10 14:57:27 INFO   5/60 interno__gradient_boosting__con_assigned__cv__f1  69s  umbral 0.4636  BA interna 0.8525
+2026-11-10 14:57:58 INFO   6/60 ajuste__gradient_boosting__con_assigned__cv__f3  33s
+2026-11-10 14:57:59 INFO   7/60 interno__gradient_boosting__con_assigned__cv__f2  68s  umbral 0.3721  BA interna 0.8453
+2026-11-10 14:58:00 INFO   8/60 ajuste__gradient_boosting__con_assigned__cv__f4  33s
+2026-11-10 14:58:32 INFO   9/60 ajuste__gradient_boosting__sin_assigned__cv__f0  32s
+2026-11-10 14:58:35 INFO   10/60 interno__gradient_boosting__con_assigned__cv__f3  68s  umbral 0.4393  BA interna 0.8449
+2026-11-10 14:59:03 INFO   11/60 ajuste__gradient_boosting__sin_assigned__cv__f1  32s
+2026-11-10 14:59:05 INFO   12/60 interno__gradient_boosting__sin_assigned__cv__f0  65s  umbral 0.4147  BA interna 0.8434
+2026-11-10 14:59:07 INFO   13/60 interno__gradient_boosting__con_assigned__cv__f4  68s  umbral 0.3778  BA interna 0.8485
+2026-11-10 14:59:35 INFO   14/60 ajuste__gradient_boosting__sin_assigned__cv__f2  32s
+2026-11-10 14:59:38 INFO   15/60 ajuste__gradient_boosting__sin_assigned__cv__f3  31s
+2026-11-10 14:59:39 INFO   16/60 interno__gradient_boosting__sin_assigned__cv__f1  65s  umbral 0.3922  BA interna 0.8494
+2026-11-10 15:00:09 INFO   17/60 ajuste__gradient_boosting__sin_assigned__cv__f4  31s
+2026-11-10 15:00:09 INFO   18/60 interno__gradient_boosting__sin_assigned__cv__f2  64s  umbral 0.3671  BA interna 0.8402
+2026-11-10 15:00:41 INFO   19/60 interno__gradient_boosting__sin_assigned__cv__f3  66s  umbral 0.3971  BA interna 0.8407
+2026-11-10 15:00:46 INFO   20/60 interno__gradient_boosting__sin_assigned__cv__f4  66s  umbral 0.4060  BA interna 0.8436
+2026-11-10 15:00:46 INFO   21/60 ajuste__gradient_boosting__con_assigned__eval_anio_2015  37s
+2026-11-10 15:01:03 INFO   22/60 ajuste__gradient_boosting__con_assigned__eval_anio_2016  22s
+2026-11-10 15:01:13 INFO   23/60 ajuste__gradient_boosting__con_assigned__eval_anio_2017  27s
+2026-11-10 15:01:23 INFO   24/60 interno__gradient_boosting__con_assigned__eval_anio_2015  74s  umbral 0.3868  BA interna 0.8401
+2026-11-10 15:01:29 INFO   25/60 interno__gradient_boosting__con_assigned__eval_anio_2016  43s  umbral 0.3620  BA interna 0.8402
+2026-11-10 15:01:40 INFO   26/60 ajuste__gradient_boosting__con_assigned__eval_PRT  27s
+2026-11-10 15:01:43 INFO   27/60 ajuste__gradient_boosting__con_assigned__eval_resto  14s
+2026-11-10 15:01:58 INFO   28/60 interno__gradient_boosting__con_assigned__eval_anio_2017  55s  umbral 0.3816  BA interna 0.8681
+2026-11-10 15:02:09 INFO   29/60 interno__gradient_boosting__con_assigned__eval_resto  29s  umbral 0.6593  BA interna 0.8789
+2026-11-10 15:02:13 INFO   30/60 ajuste__gradient_boosting__con_assigned__sin_locked__f0  30s
+2026-11-10 15:02:19 INFO   31/60 interno__gradient_boosting__con_assigned__eval_PRT  56s  umbral 0.2473  BA interna 0.8262
+2026-11-10 15:02:40 INFO   32/60 ajuste__gradient_boosting__con_assigned__sin_locked__f1  30s
+2026-11-10 15:02:50 INFO   33/60 ajuste__gradient_boosting__con_assigned__sin_locked__f2  30s
+2026-11-10 15:02:59 INFO   34/60 interno__gradient_boosting__con_assigned__sin_locked__f0  61s  umbral 0.3138  BA interna 0.8127
+2026-11-10 15:03:15 INFO   35/60 interno__gradient_boosting__con_assigned__sin_locked__f1  62s  umbral 0.3159  BA interna 0.8072
+2026-11-10 15:03:20 INFO   36/60 ajuste__gradient_boosting__con_assigned__sin_locked__f3  30s
+2026-11-10 15:03:41 INFO   37/60 interno__gradient_boosting__con_assigned__sin_locked__f2  62s  umbral 0.2675  BA interna 0.8054
+2026-11-10 15:03:46 INFO   38/60 ajuste__gradient_boosting__con_assigned__sin_locked__f4  30s
+2026-11-10 15:04:01 INFO   39/60 interno__gradient_boosting__con_assigned__sin_locked__f3  62s  umbral 0.3149  BA interna 0.8056
+2026-11-10 15:04:15 INFO   40/60 ajuste__gradient_boosting__sin_assigned__eval_anio_2015  34s
+2026-11-10 15:04:21 INFO   41/60 interno__gradient_boosting__con_assigned__sin_locked__f4  61s  umbral 0.3049  BA interna 0.8090
+2026-11-10 15:04:21 INFO   42/60 ajuste__gradient_boosting__sin_assigned__eval_anio_2016  20s
+2026-11-10 15:04:47 INFO   43/60 ajuste__gradient_boosting__sin_assigned__eval_anio_2017  26s
+2026-11-10 15:04:54 INFO   44/60 interno__gradient_boosting__sin_assigned__eval_anio_2015  68s  umbral 0.4106  BA interna 0.8354
+2026-11-10 15:04:56 INFO   45/60 interno__gradient_boosting__sin_assigned__eval_anio_2016  40s  umbral 0.4478  BA interna 0.8366
+2026-11-10 15:05:09 INFO   46/60 ajuste__gradient_boosting__sin_assigned__eval_resto  13s
+2026-11-10 15:05:12 INFO   47/60 ajuste__gradient_boosting__sin_assigned__eval_PRT  25s
+2026-11-10 15:05:12 INFO   48/60 interno__gradient_boosting__sin_assigned__eval_anio_2017  51s  umbral 0.4188  BA interna 0.8635
+2026-11-10 15:05:35 INFO   49/60 interno__gradient_boosting__sin_assigned__eval_resto  26s  umbral 0.6620  BA interna 0.8809
+2026-11-10 15:05:40 INFO   50/60 ajuste__gradient_boosting__sin_assigned__sin_locked__f0  28s
+2026-11-10 15:05:46 INFO   51/60 interno__gradient_boosting__sin_assigned__eval_PRT  52s  umbral 0.2656  BA interna 0.8192
+2026-11-10 15:06:04 INFO   52/60 ajuste__gradient_boosting__sin_assigned__sin_locked__f1  29s
+2026-11-10 15:06:10 INFO   53/60 interno__gradient_boosting__sin_assigned__sin_locked__f0  58s  umbral 0.3102  BA interna 0.8043
+2026-11-10 15:06:15 INFO   54/60 ajuste__gradient_boosting__sin_assigned__sin_locked__f2  29s
+2026-11-10 15:06:39 INFO   55/60 interno__gradient_boosting__sin_assigned__sin_locked__f1  59s  umbral 0.2949  BA interna 0.8002
+2026-11-10 15:06:39 INFO   56/60 ajuste__gradient_boosting__sin_assigned__sin_locked__f3  29s
+2026-11-10 15:07:04 INFO   57/60 interno__gradient_boosting__sin_assigned__sin_locked__f2  60s  umbral 0.3182  BA interna 0.7974
+2026-11-10 15:07:08 INFO   58/60 ajuste__gradient_boosting__sin_assigned__sin_locked__f4  29s
+2026-11-10 15:07:13 INFO   59/60 interno__gradient_boosting__sin_assigned__sin_locked__f3  58s  umbral 0.3089  BA interna 0.8006
+2026-11-10 15:07:28 INFO   60/60 interno__gradient_boosting__sin_assigned__sin_locked__f4  48s  umbral 0.3039  BA interna 0.8028
+2026-11-10 15:07:28 INFO [gradient_boosting] listo en 11.2 min
+2026-11-10 15:07:28 INFO [hist_gradient_boosting] 60 tareas pendientes de 60, 1 en paralelo
+2026-11-10 15:07:28 INFO   1/60 ajuste__hist_gradient_boosting__con_assigned__cv__f0  1s
+2026-11-10 15:07:30 INFO   2/60 interno__hist_gradient_boosting__con_assigned__cv__f0  2s  umbral 0.3585  BA interna 0.8506
+2026-11-10 15:07:31 INFO   3/60 ajuste__hist_gradient_boosting__con_assigned__cv__f1  1s
+2026-11-10 15:07:34 INFO   4/60 interno__hist_gradient_boosting__con_assigned__cv__f1  3s  umbral 0.4108  BA interna 0.8526
+2026-11-10 15:07:35 INFO   5/60 ajuste__hist_gradient_boosting__con_assigned__cv__f2  1s
+2026-11-10 15:07:38 INFO   6/60 interno__hist_gradient_boosting__con_assigned__cv__f2  3s  umbral 0.3828  BA interna 0.8501
+2026-11-10 15:07:39 INFO   7/60 ajuste__hist_gradient_boosting__con_assigned__cv__f3  1s
+2026-11-10 15:07:42 INFO   8/60 interno__hist_gradient_boosting__con_assigned__cv__f3  3s  umbral 0.3490  BA interna 0.8498
+2026-11-10 15:07:43 INFO   9/60 ajuste__hist_gradient_boosting__con_assigned__cv__f4  1s
+2026-11-10 15:07:47 INFO   10/60 interno__hist_gradient_boosting__con_assigned__cv__f4  4s  umbral 0.4023  BA interna 0.8531
+2026-11-10 15:07:48 INFO   11/60 ajuste__hist_gradient_boosting__sin_assigned__cv__f0  1s
+2026-11-10 15:07:51 INFO   12/60 interno__hist_gradient_boosting__sin_assigned__cv__f0  3s  umbral 0.4378  BA interna 0.8445
+2026-11-10 15:07:52 INFO   13/60 ajuste__hist_gradient_boosting__sin_assigned__cv__f1  1s
+2026-11-10 15:07:55 INFO   14/60 interno__hist_gradient_boosting__sin_assigned__cv__f1  3s  umbral 0.4027  BA interna 0.8475
+2026-11-10 15:07:56 INFO   15/60 ajuste__hist_gradient_boosting__sin_assigned__cv__f2  1s
+2026-11-10 15:07:59 INFO   16/60 interno__hist_gradient_boosting__sin_assigned__cv__f2  3s  umbral 0.3799  BA interna 0.8397
+2026-11-10 15:08:00 INFO   17/60 ajuste__hist_gradient_boosting__sin_assigned__cv__f3  1s
+2026-11-10 15:08:03 INFO   18/60 interno__hist_gradient_boosting__sin_assigned__cv__f3  3s  umbral 0.3600  BA interna 0.8435
+2026-11-10 15:08:04 INFO   19/60 ajuste__hist_gradient_boosting__sin_assigned__cv__f4  1s
+2026-11-10 15:08:08 INFO   20/60 interno__hist_gradient_boosting__sin_assigned__cv__f4  3s  umbral 0.3827  BA interna 0.8473
+2026-11-10 15:08:09 INFO   21/60 ajuste__hist_gradient_boosting__con_assigned__eval_anio_2015  1s
+2026-11-10 15:08:13 INFO   22/60 interno__hist_gradient_boosting__con_assigned__eval_anio_2015  4s  umbral 0.4344  BA interna 0.8431
+2026-11-10 15:08:14 INFO   23/60 ajuste__hist_gradient_boosting__con_assigned__eval_anio_2016  1s
+2026-11-10 15:08:17 INFO   24/60 interno__hist_gradient_boosting__con_assigned__eval_anio_2016  3s  umbral 0.3939  BA interna 0.8473
+2026-11-10 15:08:18 INFO   25/60 ajuste__hist_gradient_boosting__con_assigned__eval_anio_2017  1s
+2026-11-10 15:08:21 INFO   26/60 interno__hist_gradient_boosting__con_assigned__eval_anio_2017  3s  umbral 0.4377  BA interna 0.8706
+2026-11-10 15:08:22 INFO   27/60 ajuste__hist_gradient_boosting__con_assigned__eval_PRT  1s
+2026-11-10 15:08:25 INFO   28/60 interno__hist_gradient_boosting__con_assigned__eval_PRT  3s  umbral 0.2459  BA interna 0.8275
+2026-11-10 15:08:26 INFO   29/60 ajuste__hist_gradient_boosting__con_assigned__eval_resto  1s
+2026-11-10 15:08:29 INFO   30/60 interno__hist_gradient_boosting__con_assigned__eval_resto  3s  umbral 0.7272  BA interna 0.8826
+2026-11-10 15:08:30 INFO   31/60 ajuste__hist_gradient_boosting__con_assigned__sin_locked__f0  1s
+2026-11-10 15:08:34 INFO   32/60 interno__hist_gradient_boosting__con_assigned__sin_locked__f0  3s  umbral 0.3029  BA interna 0.8144
+2026-11-10 15:08:35 INFO   33/60 ajuste__hist_gradient_boosting__con_assigned__sin_locked__f1  1s
+2026-11-10 15:08:38 INFO   34/60 interno__hist_gradient_boosting__con_assigned__sin_locked__f1  4s  umbral 0.3265  BA interna 0.8115
+2026-11-10 15:08:40 INFO   35/60 ajuste__hist_gradient_boosting__con_assigned__sin_locked__f2  1s
+2026-11-10 15:08:43 INFO   36/60 interno__hist_gradient_boosting__con_assigned__sin_locked__f2  3s  umbral 0.3193  BA interna 0.8083
+2026-11-10 15:08:44 INFO   37/60 ajuste__hist_gradient_boosting__con_assigned__sin_locked__f3  1s
+2026-11-10 15:08:47 INFO   38/60 interno__hist_gradient_boosting__con_assigned__sin_locked__f3  3s  umbral 0.2915  BA interna 0.8061
+2026-11-10 15:08:48 INFO   39/60 ajuste__hist_gradient_boosting__con_assigned__sin_locked__f4  1s
+2026-11-10 15:08:52 INFO   40/60 interno__hist_gradient_boosting__con_assigned__sin_locked__f4  4s  umbral 0.3061  BA interna 0.8079
+2026-11-10 15:08:53 INFO   41/60 ajuste__hist_gradient_boosting__sin_assigned__eval_anio_2015  1s
+2026-11-10 15:08:57 INFO   42/60 interno__hist_gradient_boosting__sin_assigned__eval_anio_2015  4s  umbral 0.3969  BA interna 0.8369
+2026-11-10 15:08:58 INFO   43/60 ajuste__hist_gradient_boosting__sin_assigned__eval_anio_2016  1s
+2026-11-10 15:09:01 INFO   44/60 interno__hist_gradient_boosting__sin_assigned__eval_anio_2016  3s  umbral 0.4047  BA interna 0.8429
+2026-11-10 15:09:02 INFO   45/60 ajuste__hist_gradient_boosting__sin_assigned__eval_anio_2017  1s
+2026-11-10 15:09:05 INFO   46/60 interno__hist_gradient_boosting__sin_assigned__eval_anio_2017  3s  umbral 0.3261  BA interna 0.8641
+2026-11-10 15:09:06 INFO   47/60 ajuste__hist_gradient_boosting__sin_assigned__eval_PRT  1s
+2026-11-10 15:09:09 INFO   48/60 interno__hist_gradient_boosting__sin_assigned__eval_PRT  3s  umbral 0.2794  BA interna 0.8221
+2026-11-10 15:09:10 INFO   49/60 ajuste__hist_gradient_boosting__sin_assigned__eval_resto  1s
+2026-11-10 15:09:12 INFO   50/60 interno__hist_gradient_boosting__sin_assigned__eval_resto  2s  umbral 0.6708  BA interna 0.8785
+2026-11-10 15:09:13 INFO   51/60 ajuste__hist_gradient_boosting__sin_assigned__sin_locked__f0  1s
+2026-11-10 15:09:18 INFO   52/60 interno__hist_gradient_boosting__sin_assigned__sin_locked__f0  4s  umbral 0.2823  BA interna 0.8045
+2026-11-10 15:09:19 INFO   53/60 ajuste__hist_gradient_boosting__sin_assigned__sin_locked__f1  1s
+2026-11-10 15:09:22 INFO   54/60 interno__hist_gradient_boosting__sin_assigned__sin_locked__f1  4s  umbral 0.3030  BA interna 0.8098
+2026-11-10 15:09:23 INFO   55/60 ajuste__hist_gradient_boosting__sin_assigned__sin_locked__f2  1s
+2026-11-10 15:09:26 INFO   56/60 interno__hist_gradient_boosting__sin_assigned__sin_locked__f2  3s  umbral 0.2583  BA interna 0.8004
+2026-11-10 15:09:27 INFO   57/60 ajuste__hist_gradient_boosting__sin_assigned__sin_locked__f3  1s
+2026-11-10 15:09:31 INFO   58/60 interno__hist_gradient_boosting__sin_assigned__sin_locked__f3  3s  umbral 0.2948  BA interna 0.8003
+2026-11-10 15:09:32 INFO   59/60 ajuste__hist_gradient_boosting__sin_assigned__sin_locked__f4  1s
+2026-11-10 15:09:35 INFO   60/60 interno__hist_gradient_boosting__sin_assigned__sin_locked__f4  3s  umbral 0.3173  BA interna 0.8019
+2026-11-10 15:09:35 INFO [hist_gradient_boosting] listo en 2.1 min
+2026-11-10 15:09:40 INFO resumen: 11 configuraciones de CV, 11 calibradas, 36 escenarios de robustez -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/seleccion/calibracion/resultados
+2026-11-10 15:09:40 INFO COMPLETO

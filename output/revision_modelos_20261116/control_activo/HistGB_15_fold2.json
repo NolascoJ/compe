@@ -1,0 +1,12 @@
+{
+  "candidate": "HistGB_15",
+  "model": "hist_gradient_boosting",
+  "fold": 2,
+  "n_train": 30619,
+  "n_val": 7655,
+  "threshold_internal": 0.44812152643643793,
+  "ba_external": 0.8490403284414598,
+  "roc_auc": 0.9370755208439348,
+  "seconds": 3.1613430976867676,
+  "warnings": []
+}

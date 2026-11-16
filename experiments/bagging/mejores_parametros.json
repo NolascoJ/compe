@@ -1,0 +1,11 @@
+{
+  "modelo": "bagging",
+  "origen": "confirmacion",
+  "params": {
+    "max_depth": 14,
+    "max_features": 0.4838781988765945,
+    "max_samples": 0.7412447175717363,
+    "min_samples_leaf": 13,
+    "n_estimators": 322
+  }
+}

@@ -1,0 +1,4 @@
+modelo,familia,ba_val,ba_train,gap,ba_std,roc_auc,f1,precision,recall,umbral,ba_val_kfold_comun,inflado_por_copias,ba_val_sin_assigned,combinaciones_probadas,fit_seconds
+gradient_boosting,Boosting,0.8533,0.8965,0.0432,0.0054,0.9378,0.8292,0.7905,0.8719,0.3585,0.8708,0.0175,0.848,80,196.4253
+linear_svc,SVM,0.8288,0.836,0.0071,0.0133,0.9066,0.8008,0.7933,0.8084,-0.2087,0.8332,0.0044,0.8225,53,3.3566
+logistic,Lineales,0.8271,0.8294,0.0023,0.0136,0.9086,0.8,0.7667,0.8364,0.4661,0.8288,0.0017,0.8197,80,68.7293

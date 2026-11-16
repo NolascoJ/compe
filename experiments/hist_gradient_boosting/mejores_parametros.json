@@ -1,0 +1,14 @@
+{
+  "modelo": "hist_gradient_boosting",
+  "origen": "confirmacion",
+  "params": {
+    "class_weight": null,
+    "l2_regularization": 2.3368798682120397,
+    "learning_rate": 0.01717867776592487,
+    "max_depth": 12,
+    "max_features": 0.6829114870494657,
+    "max_iter": 868,
+    "max_leaf_nodes": 32,
+    "min_samples_leaf": 175
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "modelo": "knn",
+  "origen": "confirmacion",
+  "params": {
+    "n_neighbors": 101,
+    "p": 1,
+    "weights": "uniform"
+  }
+}

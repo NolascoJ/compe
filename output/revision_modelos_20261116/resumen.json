@@ -1,0 +1,45 @@
+{
+  "familias_originales": 8,
+  "configuraciones_buscadas": 669,
+  "conjuntos_predicciones_verificados": 47,
+  "rf_sin_assigned": {
+    "ba": 0.8397286206829553,
+    "auc": 0.9278242866260831,
+    "std": 0.011135004437473141
+  },
+  "rf_comparacion": {
+    "diferencia_hgb_menos_rf": 0.00856454701249032,
+    "ic_condicional025": 0.004115076832721954,
+    "ic_condicional975": 0.013258785732142727,
+    "folds_ganados_hgb": 4,
+    "n_replicas": 2000
+  },
+  "alcance_grupos": [
+    {
+      "fold": 0,
+      "n_validacion": 7656,
+      "coincidencias_entradas_activas_crudas": 347
+    },
+    {
+      "fold": 1,
+      "n_validacion": 7656,
+      "coincidencias_entradas_activas_crudas": 169
+    },
+    {
+      "fold": 2,
+      "n_validacion": 7654,
+      "coincidencias_entradas_activas_crudas": 287
+    },
+    {
+      "fold": 3,
+      "n_validacion": 7654,
+      "coincidencias_entradas_activas_crudas": 198
+    },
+    {
+      "fold": 4,
+      "n_validacion": 7654,
+      "coincidencias_entradas_activas_crudas": 258
+    }
+  ],
+  "sin_fit_ni_test": true
+}

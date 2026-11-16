@@ -1,0 +1,66 @@
+{
+  "semilla": 42,
+  "fraccion_test_solicitada": 0.2,
+  "fraccion_test_obtenida": 0.19999163914552068,
+  "metodo": "Por clase, barajar grupos completos y elegir el prefijo más cercano al 20% de filas.",
+  "columnas_agrupacion": [
+    "canceled_job",
+    "hours_before_execution",
+    "execution_year",
+    "execution_month",
+    "execution_week",
+    "execution_day",
+    "peak_gpu_hours",
+    "offpeak_gpu_hours",
+    "num_primary_processes",
+    "num_auxiliary_processes",
+    "num_background_processes",
+    "service_tier",
+    "client_region",
+    "client_type",
+    "request_channel",
+    "returning_client",
+    "previous_job_cancellations",
+    "successful_previous_jobs",
+    "reserved_gpu_type",
+    "assigned_gpu_type",
+    "resource_modifications",
+    "reservation_commitment",
+    "orchestration_agent_id",
+    "organization_id",
+    "queue_wait_time",
+    "workload_profile",
+    "estimated_cost_per_hour",
+    "reserved_storage_units",
+    "special_resource_requests",
+    "execution_status",
+    "execution_status_date",
+    "total_processes",
+    "total_gpu_hours",
+    "high_value_client"
+  ],
+  "pandas_version": "2.3.3",
+  "sha256_original": "ce3a119a5ece8aa69d9c9186948ce3f387d375af636f4f72cb94e05e591ab840",
+  "train": {
+    "filas": 38274,
+    "clases": {
+      "0": 22310,
+      "1": 15964
+    },
+    "proporcion_canceladas": 0.4170977687202801
+  },
+  "test": {
+    "filas": 9568,
+    "clases": {
+      "0": 5577,
+      "1": 3991
+    },
+    "proporcion_canceladas": 0.4171195652173913
+  },
+  "grupos_compartidos": 0,
+  "sha256_archivos": {
+    "train.csv": "3a66602dadce693786294ab7fe37f9a6f9a03a101ab97fd439d713b4c76c496d",
+    "test.csv": "d750529d40f8eec8a3f0fe9c42b525a489944e8b9a3e67315e7de154f5e0a14e",
+    "indices_split.csv": "0dcaa90b7575d3c144dd92ddb5c9a480589bfe9c601a8aee37dae76139ab9a9b"
+  }
+}

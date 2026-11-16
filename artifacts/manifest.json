@@ -1,0 +1,13 @@
+{
+  "format_version": 1,
+  "files": [
+    {
+      "path": "experiments/seleccion/calibracion/resultados/predicciones_externas.csv",
+      "compressed_path": "experiments/seleccion/calibracion/resultados/predicciones_externas.csv.gz",
+      "size_bytes": 109669477,
+      "compressed_size_bytes": 11723263,
+      "sha256": "5a1bd2786372bfe28875dcb9425082fb96fc698d2d781e6fbc8cce4030ec0ce9",
+      "compressed_sha256": "d35187d63cae5370e5fa57f387dabfb9c45a7adb1583855ca2f52495f7227f9a"
+    }
+  ]
+}

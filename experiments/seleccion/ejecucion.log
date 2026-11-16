@@ -1,0 +1,53 @@
+OOF logistic True 0.8271331079869195
+OOF logistic False 0.8197179394336496
+Traceback (most recent call last):
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/seleccion/analisis.py", line 46, in <module>
+    cf=make_folds(df,grouped=False);res=cv_scores(pipe(n,params[n],True),df,cf,MODELS[n].score);dest.write_text(json.dumps(metrics(df,res,cf)))
+                                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/src/compe/validation.py", line 54, in cv_scores
+    out = Parallel(n_jobs=n_jobs)(delayed(_one_fold)(model, df, y, tr, va, kind) for tr, va in folds)
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/parallel.py", line 2012, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/parallel.py", line 1940, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/src/compe/validation.py", line 46, in _one_fold
+    m = clone(model).fit(df.iloc[tr], y[tr])
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/pipeline.py", line 645, in fit
+    self._final_estimator.fit(Xt, y, **last_step_params["fit"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_logistic.py", line 1523, in fit
+    coefs, _, n_iter = _logistic_regression_path(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<18 lines>...
+        estimator=self,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_logistic.py", line 675, in _logistic_regression_path
+    w0, n_iter_i, warm_start_sag = sag_solver(
+                                   ~~~~~~~~~~^
+        X,
+        ^^
+    ...<12 lines>...
+        is_saga=(solver == "saga"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_sag.py", line 323, in sag_solver
+    num_seen, n_iter_ = sag(
+                        ~~~^
+        dataset,
+        ^^^^^^^^
+    ...<19 lines>...
+        verbose,
+        ^^^^^^^^
+    )
+    ^
+KeyboardInterrupt

@@ -1,0 +1,15 @@
+{
+  "auditoria": "OK",
+  "tareas": 15,
+  "conjuntos_metricas": 21,
+  "filas_predicciones": 440844,
+  "fuentes": {
+    "fit": 465,
+    "assembled": 150,
+    "legacy interno": 30,
+    "legacy interno block": 90,
+    "legacy ajuste": 30,
+    "strict nested stacking": 15
+  },
+  "advertencias": {}
+}

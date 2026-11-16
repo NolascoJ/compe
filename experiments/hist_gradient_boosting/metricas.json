@@ -1,0 +1,23 @@
+{
+  "modelo": "hist_gradient_boosting",
+  "familia": "Boosting",
+  "variante_preprocesamiento": "E",
+  "puntuacion": "proba",
+  "ba_val": 0.8572094810814247,
+  "ba_train": 0.8992095217648292,
+  "gap": 0.04200004068340446,
+  "ba_std": 0.0072600185866655955,
+  "umbral": 0.3895178081045757,
+  "roc_auc": 0.9406773838739135,
+  "f1": 0.8335555824948478,
+  "precision": 0.8074213245655237,
+  "recall": 0.86143823603107,
+  "completados_detectados": 0.8529807261317794,
+  "fit_seconds": 25.050071001052856,
+  "ba_val_kfold_comun": 0.8724063926443193,
+  "inflado_por_copias": 0.0151969115628946,
+  "ba_val_sin_assigned": 0.8502190186772771,
+  "umbral_sin_assigned": 0.4110371559247107,
+  "combinaciones_probadas": 160,
+  "max_gap": 0.05
+}

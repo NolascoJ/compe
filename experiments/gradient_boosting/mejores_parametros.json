@@ -1,0 +1,12 @@
+{
+  "modelo": "gradient_boosting",
+  "origen": "confirmacion",
+  "params": {
+    "learning_rate": 0.0306778319694446,
+    "max_depth": 6,
+    "max_features": 0.9072434422266273,
+    "min_samples_leaf": 45,
+    "n_estimators": 522,
+    "subsample": 0.8259655127899871
+  }
+}

@@ -1,0 +1,109 @@
+[bagging] base: val 0.8460  train 0.9969  dif +0.1509
+[bagging] listo en 0.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+/Users/jnolascodecarles/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/8p/zlqgqjmx0ns72xst0_p9v32c0000gn/T/matplotlib-wnin7yqg because there was an issue with the default path (/Users/jnolascodecarles/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/jnolascodecarles/.cache/fontconfig
+	/Users/jnolascodecarles/.fontconfig
+Matplotlib is building the font cache; this may take a moment.
+[bagging] curva max_depth=2: val 0.7305  train 0.7371
+[bagging] curva max_depth=4: val 0.7783  train 0.7838
+[bagging] curva max_depth=6: val 0.8075  train 0.8155
+[bagging] curva max_depth=8: val 0.8270  train 0.8408
+[bagging] curva max_depth=12: val 0.8392  train 0.8802
+[bagging] curva max_depth=16: val 0.8454  train 0.9203
+[bagging] curva max_depth=24: val 0.8462  train 0.9878
+[bagging] curva max_depth=None: val 0.8460  train 0.9969
+[bagging] listo en 1.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+[bagging] búsqueda amplia: 60 combinaciones por correr (0 ya guardadas)
+  1/60  val 0.8526  train 0.9410  dif +0.0884  9s
+  2/60  val 0.8319  train 0.8596  dif +0.0277  15s
+  3/60  val 0.8435  train 0.8819  dif +0.0384  12s
+  4/60  val 0.8410  train 0.8707  dif +0.0297  12s
+  5/60  val 0.8403  train 0.8652  dif +0.0249  10s
+  6/60  val 0.8320  train 0.8457  dif +0.0137  5s
+  7/60  val 0.8363  train 0.8554  dif +0.0191  21s
+  8/60  val 0.8509  train 0.9098  dif +0.0590  15s
+  9/60  val 0.8374  train 0.8501  dif +0.0127  13s
+  10/60  val 0.8269  train 0.8354  dif +0.0085  11s
+  11/60  val 0.8368  train 0.8509  dif +0.0141  10s
+  12/60  val 0.8340  train 0.8463  dif +0.0124  6s
+  13/60  val 0.8440  train 0.8858  dif +0.0418  17s
+  14/60  val 0.8345  train 0.8490  dif +0.0145  11s
+  15/60  val 0.8329  train 0.8463  dif +0.0134  6s
+  16/60  val 0.8381  train 0.8554  dif +0.0173  17s
+  17/60  val 0.8477  train 0.8934  dif +0.0456  10s
+  18/60  val 0.8451  train 0.8889  dif +0.0438  6s
+  19/60  val 0.8535  train 0.9523  dif +0.0988  7s
+  20/60  val 0.8422  train 0.8638  dif +0.0216  7s
+  21/60  val 0.8339  train 0.8511  dif +0.0172  18s
+  22/60  val 0.8466  train 0.8964  dif +0.0498  5s
+  23/60  val 0.8392  train 0.8676  dif +0.0284  13s
+  24/60  val 0.8410  train 0.8631  dif +0.0221  15s
+  25/60  val 0.8206  train 0.8257  dif +0.0051  6s
+  26/60  val 0.8510  train 0.9205  dif +0.0695  11s
+  27/60  val 0.8489  train 0.9144  dif +0.0655  12s
+  28/60  val 0.8536  train 0.9549  dif +0.1012  10s
+  29/60  val 0.8133  train 0.8213  dif +0.0079  9s
+  30/60  val 0.8299  train 0.8471  dif +0.0172  16s
+  31/60  val 0.8511  train 0.9541  dif +0.1030  8s
+  32/60  val 0.8515  train 0.9242  dif +0.0727  7s
+  33/60  val 0.8426  train 0.8640  dif +0.0214  10s
+  34/60  val 0.8465  train 0.8960  dif +0.0495  25s
+  35/60  val 0.8435  train 0.8797  dif +0.0362  11s
+  36/60  val 0.8348  train 0.8476  dif +0.0128  3s
+  37/60  val 0.8438  train 0.8675  dif +0.0237  4s
+  38/60  val 0.8392  train 0.8710  dif +0.0318  15s
+  39/60  val 0.8426  train 0.8705  dif +0.0280  6s
+  40/60  val 0.8183  train 0.8250  dif +0.0067  14s
+  41/60  val 0.8475  train 0.8823  dif +0.0348  11s
+  42/60  val 0.8477  train 0.9043  dif +0.0566  11s
+  43/60  val 0.8438  train 0.8946  dif +0.0508  8s
+  44/60  val 0.8433  train 0.8638  dif +0.0205  14s
+  45/60  val 0.8287  train 0.8372  dif +0.0084  6s
+  46/60  val 0.8417  train 0.8668  dif +0.0251  19s
+  47/60  val 0.8435  train 0.9226  dif +0.0791  9s
+  48/60  val 0.8381  train 0.8625  dif +0.0244  14s
+  49/60  val 0.8413  train 0.8617  dif +0.0204  18s
+  50/60  val 0.8319  train 0.8436  dif +0.0118  13s
+  51/60  val 0.8105  train 0.8166  dif +0.0061  14s
+  52/60  val 0.8294  train 0.8415  dif +0.0121  28s
+  53/60  val 0.8454  train 0.8878  dif +0.0424  10s
+  54/60  val 0.8419  train 0.8774  dif +0.0355  13s
+  55/60  val 0.8455  train 0.8760  dif +0.0305  13s
+  56/60  val 0.8500  train 0.9319  dif +0.0818  9s
+  57/60  val 0.8480  train 0.9082  dif +0.0602  14s
+  58/60  val 0.8397  train 0.8661  dif +0.0264  21s
+  59/60  val 0.8362  train 0.8501  dif +0.0139  7s
+  60/60  val 0.8410  train 0.8624  dif +0.0214  7s
+[bagging] listo en 15.1 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+[bagging] refinamiento: 20 combinaciones por correr (0 ya guardadas)
+  1/20  val 0.8478  train 0.9224  dif +0.0745  13s
+  2/20  val 0.8483  train 0.9063  dif +0.0580  28s
+  3/20  val 0.8511  train 0.9040  dif +0.0529  14s
+  4/20  val 0.8514  train 0.9438  dif +0.0925  31s
+  5/20  val 0.8472  train 0.8954  dif +0.0482  16s
+  6/20  val 0.8510  train 0.9092  dif +0.0582  28s
+  7/20  val 0.8446  train 0.8908  dif +0.0462  26s
+  8/20  val 0.8453  train 0.8940  dif +0.0487  14s
+  9/20  val 0.8423  train 0.8646  dif +0.0223  7s
+  10/20  val 0.8426  train 0.8641  dif +0.0215  11s
+  11/20  val 0.8452  train 0.8731  dif +0.0279  17s
+  12/20  val 0.8524  train 0.9132  dif +0.0608  15s
+  13/20  val 0.8466  train 0.8871  dif +0.0405  19s
+  14/20  val 0.8481  train 0.8878  dif +0.0397  15s
+  15/20  val 0.8416  train 0.8644  dif +0.0228  14s
+  16/20  val 0.8430  train 0.8643  dif +0.0214  15s
+  17/20  val 0.8472  train 0.8946  dif +0.0474  22s
+  18/20  val 0.8455  train 0.8708  dif +0.0253  23s
+  19/20  val 0.8413  train 0.8629  dif +0.0215  10s
+  20/20  val 0.8500  train 0.9156  dif +0.0656  29s
+[bagging] listo en 7.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+[bagging] confirmación: val 0.8472 ± 0.0007  dif +0.0402
+[bagging] confirmación: val 0.8467 ± 0.0008  dif +0.0467
+[bagging] confirmación: val 0.8457 ± 0.0012  dif +0.0365
+[bagging] listo en 3.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+[bagging] FINAL (confirmacion): val 0.8477  train 0.8934  dif +0.0456  auc 0.9283 | K-Fold común 0.8662 | sin assigned 0.8404
+[bagging] listo en 1.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging

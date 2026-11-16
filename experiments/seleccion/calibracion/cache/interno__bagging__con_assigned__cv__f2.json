@@ -1,0 +1,33 @@
+{
+  "clave": {
+    "version_calculo": "1",
+    "tipo": "interno",
+    "modelo": "bagging",
+    "params": "{\"max_depth\": 10, \"max_features\": 0.4841494533991665, \"max_samples\": 0.93769646310386, \"min_samples_leaf\": 28, \"n_estimators\": 431}",
+    "assigned": true,
+    "variante_preprocesamiento": "D",
+    "puntuacion": "proba",
+    "escenario": "cv",
+    "fold": 2,
+    "semilla": 42,
+    "n_folds_externos": 5,
+    "n_folds_internos": 3,
+    "filas_entrenamiento": 30620,
+    "hash_train_idx": "990a172f599d0d1a",
+    "filas_evaluacion": null,
+    "hash_eval_idx": null,
+    "hash_train_csv": "3a66602dadce693786294ab7fe37f9a6f9a03a101ab97fd439d713b4c76c496d",
+    "hash_codigo": "57338175fd1d16a5",
+    "versiones": {
+      "python": "3.14.2",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "sklearn": "1.9.1",
+      "joblib": "1.6.0"
+    },
+    "constructor": "make_pipeline"
+  },
+  "segundos": 6.412599086761475,
+  "advertencias": {},
+  "creado": "2026-11-10T14:56:00"
+}

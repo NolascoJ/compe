@@ -1,0 +1,12 @@
+{
+  "candidate": "GradientBoosting",
+  "model": "gradient_boosting",
+  "fold": 3,
+  "n_train": 30619,
+  "n_val": 7655,
+  "threshold_internal": 0.4135751551849939,
+  "ba_external": 0.8258875484429675,
+  "roc_auc": 0.9206429194409611,
+  "seconds": 61.4937698841095,
+  "warnings": []
+}

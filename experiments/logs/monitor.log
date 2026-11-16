@@ -1,0 +1,1395 @@
+hora: 20:30:20
+--- procesos compe.run
+33408 compe.run/ compe.run/
+30599 compe.run gradient_boosting
+--- carpetas
+gradient_boosting: etapa=busqueda busqueda=49 refinamiento=0 mejor_val=0.8555 dif=+0.0776 ultima_escritura=busqueda.csv 20:30:19
+--- ultimas lineas de logs
+[experiments/logs/monitor.log]
+gradient_boosting: etapa=busqueda busqueda=49 refinamiento=0 mejor_val=0.8555 dif=+0.0776 ultima_escritura=busqueda.csv 20:30:19
+--- ultimas lineas de logs
+[experiments/logs/monitor.log]
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 68%
+--- alertas
+corrida_activa=gradient_boosting segundos_desde_ultima_escritura=1
+SIN_NOVEDADES
+==========
+hora: 20:37:27
+--- procesos compe.run
+34821 compe.run/ compe.run/
+30599 compe.run gradient_boosting
+--- carpetas
+gradient_boosting: etapa=refinar busqueda=60 refinamiento=8 mejor_val=0.8555 dif=+0.0776 ultima_escritura=refinamiento.csv 20:37:06
+--- ultimas lineas de logs
+[experiments/logs/monitor.log]
+gradient_boosting: etapa=refinar busqueda=60 refinamiento=8 mejor_val=0.8555 dif=+0.0776 ultima_escritura=refinamiento.csv 20:37:06
+--- ultimas lineas de logs
+[experiments/logs/monitor.log]
+errores_en_log=1
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 56%
+--- alertas
+corrida_activa=gradient_boosting segundos_desde_ultima_escritura=21
+SIN_NOVEDADES
+==========
+hora: 20:44:33
+--- procesos compe.run
+36121 compe.run/ compe.run/
+30599 compe.run gradient_boosting
+--- carpetas
+gradient_boosting: etapa=refinar busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=refinamiento.csv 20:43:16
+--- ultimas lineas de logs
+[experiments/logs/monitor.log]
+gradient_boosting: etapa=refinar busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=refinamiento.csv 20:43:16
+--- ultimas lineas de logs
+[experiments/logs/monitor.log]
+errores_en_log=2
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 45%
+--- alertas
+corrida_activa=gradient_boosting segundos_desde_ultima_escritura=78
+SIN_NOVEDADES
+==========
+hora: 20:50:45
+--- procesos compe.run
+37268 compe.run/ compe.run/
+NINGUNO
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+--- ultimas lineas de logs
+[experiments/logs/monitor.log]
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+--- ultimas lineas de logs
+[experiments/logs/monitor.log]
+errores_en_log=3
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 49%
+--- alertas
+ACCION_REQUERIDA: no hay corridas activas
+==========
+hora: 20:58:39
+--- procesos compe.run
+37492       07:05   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494       07:05   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+37661 compe.run logistic
+37662 compe.run logistic
+38854 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+logistic: etapa=busqueda busqueda=7 refinamiento=0 mejor_val=0.8271 dif=+0.0023 ultima_escritura=busqueda.csv 20:58:08
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+[experiments/logs/logistic.log]
+  warnings.warn(
+/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in
+  warnings.warn(
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 62%
+--- alertas
+corrida_activa=logistic segundos_desde_ultima_escritura=32
+SIN_NOVEDADES
+==========
+hora: 21:05:47
+--- procesos compe.run
+37492       14:13   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494       14:13   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+37661 compe.run logistic
+37662 compe.run logistic
+40046 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+logistic: etapa=busqueda busqueda=22 refinamiento=0 mejor_val=0.8271 dif=+0.0023 ultima_escritura=busqueda.csv 21:05:17
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+[experiments/logs/logistic.log]
+  warnings.warn(
+/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in
+  warnings.warn(
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 62%
+--- alertas
+corrida_activa=logistic segundos_desde_ultima_escritura=30
+SIN_NOVEDADES
+==========
+hora: 21:12:54
+--- procesos compe.run
+37492       21:20   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494       21:20   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+37661 compe.run logistic
+37662 compe.run logistic
+41241 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+logistic: etapa=busqueda busqueda=38 refinamiento=0 mejor_val=0.8271 dif=+0.0023 ultima_escritura=busqueda.csv 21:12:51
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+[experiments/logs/logistic.log]
+  warnings.warn(
+/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in
+  warnings.warn(
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 54%
+--- alertas
+corrida_activa=logistic segundos_desde_ultima_escritura=3
+SIN_NOVEDADES
+==========
+hora: 21:20:01
+--- procesos compe.run
+37492       28:27   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494       28:27   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+37661 compe.run logistic
+37662 compe.run logistic
+42468 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+logistic: etapa=busqueda busqueda=52 refinamiento=0 mejor_val=0.8271 dif=+0.0023 ultima_escritura=busqueda.csv 21:19:37
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+[experiments/logs/logistic.log]
+  warnings.warn(
+/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in
+  warnings.warn(
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 57%
+--- alertas
+corrida_activa=logistic segundos_desde_ultima_escritura=25
+SIN_NOVEDADES
+==========
+hora: 21:27:08
+--- procesos compe.run
+37492       35:34   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494       35:34   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+37661 compe.run logistic
+37662 compe.run logistic
+43640 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+logistic: etapa=refinar busqueda=60 refinamiento=7 mejor_val=0.8271 dif=+0.0023 ultima_escritura=refinamiento.csv 21:26:58
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+[experiments/logs/logistic.log]
+  warnings.warn(
+/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in
+  warnings.warn(
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 56%
+--- alertas
+corrida_activa=logistic segundos_desde_ultima_escritura=11
+SIN_NOVEDADES
+==========
+hora: 21:34:15
+--- procesos compe.run
+37492       42:41   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494       42:41   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+37661 compe.run logistic
+37662 compe.run logistic
+44879 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+logistic: etapa=refinar busqueda=60 refinamiento=19 mejor_val=0.8271 dif=+0.0023 ultima_escritura=refinamiento.csv 21:34:10
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+[experiments/logs/logistic.log]
+  warnings.warn(
+/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in
+  warnings.warn(
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 58%
+--- alertas
+corrida_activa=logistic segundos_desde_ultima_escritura=6
+SIN_NOVEDADES
+==========
+hora: 21:41:23
+--- procesos compe.run
+37492       49:49   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494       49:49   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+45831 compe.run linear_svc
+45833 compe.run linear_svc
+46116 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+linear_svc: etapa=busqueda busqueda=11 refinamiento=0 mejor_val=0.8284 dif=+0.0074 ultima_escritura=busqueda.csv 21:41:07
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+[experiments/logs/linear_svc.log]
+/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/sklearn/svm/_base.py:1295: ConvergenceWarning: Liblinear failed to converge, incre
+  warnings.warn(
+  11/40  val 0.8282  train 0.8380  dif +0.0097  8s
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 56%
+--- alertas
+corrida_activa=linear_svc segundos_desde_ultima_escritura=17
+SIN_NOVEDADES
+==========
+hora: 21:48:31
+--- procesos compe.run
+37492       56:57   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494       56:57   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+48162 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=1 refinamiento=0 mejor_val=0.8503 dif=+0.1000 ultima_escritura=busqueda.csv 21:46:30
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+[hist_gradient_boosting] curva max_leaf_nodes=255: val 0.8531  train 0.9791
+[hist_gradient_boosting] búsqueda amplia: 120 combinaciones por correr (0 ya guardadas)
+  1/120  val 0.8503  train 0.9503  dif +0.1000  31s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 61%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=121
+SIN_NOVEDADES
+==========
+hora: 21:55:38
+--- procesos compe.run
+37492    01:04:04   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    01:04:04   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+49873 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=12 refinamiento=0 mejor_val=0.8571 dif=+0.0627 ultima_escritura=busqueda.csv 21:55:32
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  10/120  val 0.8378  train 0.8500  dif +0.0122  5s
+  11/120  val 0.8511  train 0.9843  dif +0.1332  36s
+  12/120  val 0.8543  train 0.9649  dif +0.1106  61s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 61%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=6
+SIN_NOVEDADES
+==========
+hora: 22:02:45
+--- procesos compe.run
+37492    01:11:11   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    01:11:11   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+51052 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=19 refinamiento=0 mejor_val=0.8571 dif=+0.0627 ultima_escritura=busqueda.csv 22:01:50
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  17/120  val 0.8570  train 0.9550  dif +0.0980  182s
+  18/120  val 0.8565  train 0.9064  dif +0.0499  46s
+  19/120  val 0.8509  train 0.9688  dif +0.1179  31s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 60%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=56
+SIN_NOVEDADES
+==========
+hora: 22:09:52
+--- procesos compe.run
+37492    01:18:18   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    01:18:18   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+52266 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=26 refinamiento=0 mejor_val=0.8571 dif=+0.0627 ultima_escritura=busqueda.csv 22:09:28
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  24/120  val 0.8431  train 0.8578  dif +0.0147  13s
+  25/120  val 0.8535  train 0.9533  dif +0.0998  51s
+  26/120  val 0.8499  train 0.8970  dif +0.0471  16s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 59%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=25
+SIN_NOVEDADES
+==========
+hora: 22:17:00
+--- procesos compe.run
+37492    01:25:26   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    01:25:26   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+53453 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=31 refinamiento=0 mejor_val=0.8571 dif=+0.0627 ultima_escritura=busqueda.csv 22:16:50
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  29/120  val 0.8438  train 0.8625  dif +0.0187  23s
+  30/120  val 0.8553  train 0.9446  dif +0.0893  169s
+  31/120  val 0.8526  train 0.8910  dif +0.0383  25s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 59%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=10
+SIN_NOVEDADES
+==========
+hora: 22:24:08
+--- procesos compe.run
+37492    01:32:34   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    01:32:34   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+54672 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=39 refinamiento=0 mejor_val=0.8571 dif=+0.0627 ultima_escritura=busqueda.csv 22:23:54
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  37/120  val 0.8534  train 0.8980  dif +0.0445  50s
+  38/120  val 0.8356  train 0.8477  dif +0.0121  9s
+  39/120  val 0.8510  train 0.9921  dif +0.1411  177s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 59%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=15
+SIN_NOVEDADES
+==========
+hora: 22:31:15
+--- procesos compe.run
+37492    01:39:41   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    01:39:41   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+55898 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8571 dif=+0.0627 ultima_escritura=busqueda.csv 22:30:37
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  48/120  val 0.8431  train 0.8594  dif +0.0163  5s
+  49/120  val 0.8511  train 0.9141  dif +0.0630  20s
+  50/120  val 0.8157  train 0.8218  dif +0.0061  4s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 60%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=39
+SIN_NOVEDADES
+==========
+hora: 22:38:23
+--- procesos compe.run
+37492    01:46:49   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    01:46:49   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+57194 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=58 refinamiento=0 mejor_val=0.8571 dif=+0.0627 ultima_escritura=busqueda.csv 22:36:24
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  56/120  val 0.8514  train 0.9850  dif +0.1335  81s
+  57/120  val 0.8445  train 0.8616  dif +0.0171  6s
+  58/120  val 0.8495  train 0.8767  dif +0.0272  12s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 59%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=119
+SIN_NOVEDADES
+==========
+hora: 22:45:30
+--- procesos compe.run
+37492    01:53:56   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    01:53:56   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+58598 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=66 refinamiento=0 mejor_val=0.8574 dif=+0.0902 ultima_escritura=busqueda.csv 22:44:46
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  64/120  val 0.8574  train 0.9476  dif +0.0902  139s
+  65/120  val 0.8456  train 0.8659  dif +0.0202  5s
+  66/120  val 0.8537  train 0.9658  dif +0.1121  50s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 57%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=44
+SIN_NOVEDADES
+==========
+hora: 22:52:36
+--- procesos compe.run
+37492    02:01:02   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:01:02   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+59848 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=81 refinamiento=0 mejor_val=0.8574 dif=+0.0902 ultima_escritura=busqueda.csv 22:51:54
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  79/120  val 0.8502  train 0.9108  dif +0.0606  19s
+  80/120  val 0.8225  train 0.8316  dif +0.0091  3s
+  81/120  val 0.8509  train 0.9697  dif +0.1188  22s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 55%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=43
+SIN_NOVEDADES
+==========
+hora: 22:59:43
+--- procesos compe.run
+37492    02:08:09   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:08:09   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+61214 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=91 refinamiento=0 mejor_val=0.8574 dif=+0.0902 ultima_escritura=busqueda.csv 22:59:33
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  89/120  val 0.8484  train 0.8697  dif +0.0213  17s
+  90/120  val 0.8510  train 0.9765  dif +0.1255  46s
+  91/120  val 0.8554  train 0.9129  dif +0.0576  14s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 57%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=11
+SIN_NOVEDADES
+==========
+hora: 23:06:50
+--- procesos compe.run
+37492    02:15:16   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:15:16   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+62402 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=102 refinamiento=0 mejor_val=0.8574 dif=+0.0902 ultima_escritura=busqueda.csv 23:05:40
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  100/120  val 0.8523  train 0.8827  dif +0.0303  8s
+  101/120  val 0.8530  train 0.9007  dif +0.0477  23s
+  102/120  val 0.8499  train 0.8754  dif +0.0255  17s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 63%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=71
+SIN_NOVEDADES
+==========
+hora: 23:13:57
+--- procesos compe.run
+37492    02:22:23   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:22:23   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+63592 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=busqueda busqueda=111 refinamiento=0 mejor_val=0.8574 dif=+0.0902 ultima_escritura=busqueda.csv 23:13:43
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  109/120  val 0.8437  train 0.8599  dif +0.0161  11s
+  110/120  val 0.8528  train 0.9705  dif +0.1177  55s
+  111/120  val 0.8509  train 0.8943  dif +0.0434  10s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 65%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=15
+SIN_NOVEDADES
+==========
+hora: 23:21:04
+--- procesos compe.run
+37492    02:29:30   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:29:30   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+64780 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=refinar busqueda=120 refinamiento=4 mejor_val=0.8574 dif=+0.0902 ultima_escritura=refinamiento.csv 23:19:56
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  2/40  val 0.8542  train 0.9082  dif +0.0540  11s
+  3/40  val 0.8564  train 0.9481  dif +0.0916  18s
+  4/40  val 0.8551  train 0.9458  dif +0.0908  17s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 64%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=68
+SIN_NOVEDADES
+==========
+hora: 23:28:11
+--- procesos compe.run
+37492    02:36:37   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:36:37   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+66087 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=refinar busqueda=120 refinamiento=15 mejor_val=0.8574 dif=+0.0902 ultima_escritura=refinamiento.csv 23:27:32
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  13/40  val 0.8535  train 0.9924  dif +0.1389  96s
+  14/40  val 0.8550  train 0.9681  dif +0.1131  28s
+  15/40  val 0.8521  train 0.8921  dif +0.0400  11s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 62%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=39
+SIN_NOVEDADES
+==========
+hora: 23:35:18
+--- procesos compe.run
+37492    02:43:44   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:43:44   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+67373 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=refinar busqueda=120 refinamiento=21 mejor_val=0.8574 dif=+0.0902 ultima_escritura=refinamiento.csv 23:34:44
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  19/40  val 0.8517  train 0.9423  dif +0.0906  57s
+  20/40  val 0.8532  train 0.8935  dif +0.0402  39s
+  21/40  val 0.8560  train 0.9447  dif +0.0888  56s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 59%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=34
+SIN_NOVEDADES
+==========
+hora: 23:42:25
+--- procesos compe.run
+37492    02:50:51   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:50:51   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+68645 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=refinar busqueda=120 refinamiento=30 mejor_val=0.8574 dif=+0.0902 ultima_escritura=refinamiento.csv 23:41:47
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  28/40  val 0.8571  train 0.9559  dif +0.0988  81s
+  29/40  val 0.8533  train 0.9256  dif +0.0723  23s
+  30/40  val 0.8534  train 0.9910  dif +0.1376  56s
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 60%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=38
+SIN_NOVEDADES
+==========
+hora: 23:49:32
+--- procesos compe.run
+37492    02:57:58   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    02:57:58   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+46795 compe.run hist_gradient_boosting
+46796 compe.run hist_gradient_boosting
+69859 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=refinar busqueda=120 refinamiento=40 mejor_val=0.8574 dif=+0.0902 ultima_escritura=refinamiento.csv 23:47:41
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+[experiments/logs/hist_gradient_boosting.log]
+  39/40  val 0.8425  train 0.8586  dif +0.0160  4s
+  40/40  val 0.8572  train 0.8992  dif +0.0420  25s
+[hist_gradient_boosting] confirmación: val 0.8564 ± 0.0006  dif +0.0433
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 61%
+--- alertas
+corrida_activa=hist_gradient_boosting segundos_desde_ultima_escritura=111
+SIN_NOVEDADES
+==========
+hora: 23:56:39
+--- procesos compe.run
+37492    03:05:05   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    03:05:05   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+70555 compe.run random_forest
+70556 compe.run random_forest
+71136 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=TERMINADO busqueda=120 refinamiento=40 mejor_val=0.8574 dif=+0.0902 ultima_escritura=metricas.json 23:53:06
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+random_forest: etapa=busqueda busqueda=13 refinamiento=0 mejor_val=0.8439 dif=+0.0326 ultima_escritura=busqueda.csv 23:56:34
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+23:53:06 termina hist_gradient_boosting exit=0
+23:53:06 inicia random_forest
+[experiments/logs/hist_gradient_boosting.log]
+[hist_gradient_boosting] confirmación: val 0.8563 ± 0.0007  dif +0.0479
+[hist_gradient_boosting] FINAL (confirmacion): val 0.8572  train 0.8992  dif +0.0420  auc 0.9407 | K-Fold común 0.8724 | sin assigned 0.8502
+[hist_gradient_boosting] listo en 128.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/hist_gradient_boosting
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/random_forest.log]
+  11/80  val 0.8439  train 0.8764  dif +0.0326  15s
+  12/80  val 0.8434  train 0.8826  dif +0.0393  22s
+  13/80  val 0.8373  train 0.8672  dif +0.0298  8s
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 57%
+--- alertas
+corrida_activa=random_forest segundos_desde_ultima_escritura=6
+SIN_NOVEDADES
+==========
+hora: 00:03:48
+--- procesos compe.run
+37492    03:12:14   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    03:12:14   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+70555 compe.run random_forest
+70556 compe.run random_forest
+72359 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=TERMINADO busqueda=120 refinamiento=40 mejor_val=0.8574 dif=+0.0902 ultima_escritura=metricas.json 23:53:06
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+random_forest: etapa=busqueda busqueda=45 refinamiento=0 mejor_val=0.8532 dif=+0.0860 ultima_escritura=busqueda.csv 00:03:35
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+23:53:06 termina hist_gradient_boosting exit=0
+23:53:06 inicia random_forest
+[experiments/logs/hist_gradient_boosting.log]
+[hist_gradient_boosting] confirmación: val 0.8563 ± 0.0007  dif +0.0479
+[hist_gradient_boosting] FINAL (confirmacion): val 0.8572  train 0.8992  dif +0.0420  auc 0.9407 | K-Fold común 0.8724 | sin assigned 0.8502
+[hist_gradient_boosting] listo en 128.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/hist_gradient_boosting
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/random_forest.log]
+  43/80  val 0.8384  train 0.8578  dif +0.0194  15s
+  44/80  val 0.8275  train 0.8424  dif +0.0149  9s
+  45/80  val 0.8333  train 0.8538  dif +0.0206  7s
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 57%
+--- alertas
+corrida_activa=random_forest segundos_desde_ultima_escritura=14
+SIN_NOVEDADES
+==========
+hora: 00:10:57
+--- procesos compe.run
+37492    03:19:23   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    03:19:23   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+70555 compe.run random_forest
+70556 compe.run random_forest
+73565 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=TERMINADO busqueda=120 refinamiento=40 mejor_val=0.8574 dif=+0.0902 ultima_escritura=metricas.json 23:53:06
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+random_forest: etapa=busqueda busqueda=79 refinamiento=0 mejor_val=0.8532 dif=+0.0860 ultima_escritura=busqueda.csv 00:10:51
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+23:53:06 termina hist_gradient_boosting exit=0
+23:53:06 inicia random_forest
+[experiments/logs/hist_gradient_boosting.log]
+[hist_gradient_boosting] confirmación: val 0.8563 ± 0.0007  dif +0.0479
+[hist_gradient_boosting] FINAL (confirmacion): val 0.8572  train 0.8992  dif +0.0420  auc 0.9407 | K-Fold común 0.8724 | sin assigned 0.8502
+[hist_gradient_boosting] listo en 128.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/hist_gradient_boosting
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/random_forest.log]
+  77/80  val 0.8377  train 0.8686  dif +0.0309  20s
+  78/80  val 0.8378  train 0.8619  dif +0.0241  6s
+  79/80  val 0.8299  train 0.8435  dif +0.0136  9s
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 58%
+--- alertas
+corrida_activa=random_forest segundos_desde_ultima_escritura=6
+SIN_NOVEDADES
+==========
+hora: 00:18:05
+--- procesos compe.run
+37492    03:26:31   0.0 /bin/zsh -c source /Users/jnolascodecarles/.claude/shell-snapshots/snapshot-zsh-1794262404857-nq
+37494    03:26:31   0.0 sh /private/tmp/claude-501/-Users-jnolascodecarles-ITBA-4-1Q-ml-compe/9a10973a-7290-473d-a36b-dc
+70555 compe.run random_forest
+70556 compe.run random_forest
+74835 compe.run/ compe.run/
+--- carpetas
+gradient_boosting: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8557 dif=+0.0522 ultima_escritura=metricas.json 20:50:41
+hist_gradient_boosting: etapa=TERMINADO busqueda=120 refinamiento=40 mejor_val=0.8574 dif=+0.0902 ultima_escritura=metricas.json 23:53:06
+linear_svc: etapa=TERMINADO busqueda=40 refinamiento=13 mejor_val=0.8290 dif=+0.0077 ultima_escritura=metricas.json 21:44:50
+logistic: etapa=TERMINADO busqueda=60 refinamiento=20 mejor_val=0.8271 dif=+0.0056 ultima_escritura=metricas.json 21:39:57
+random_forest: etapa=refinar busqueda=80 refinamiento=26 mejor_val=0.8532 dif=+0.0860 ultima_escritura=refinamiento.csv 00:17:21
+ridge: etapa=busqueda busqueda=50 refinamiento=0 mejor_val=0.8247 dif=+0.0057 ultima_escritura=busqueda.csv 20:52:09
+--- ultimas lineas de logs
+[cola]
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+23:53:06 termina hist_gradient_boosting exit=0
+23:53:06 inicia random_forest
+[experiments/logs/hist_gradient_boosting.log]
+[hist_gradient_boosting] confirmación: val 0.8563 ± 0.0007  dif +0.0479
+[hist_gradient_boosting] FINAL (confirmacion): val 0.8572  train 0.8992  dif +0.0420  auc 0.9407 | K-Fold común 0.8724 | sin assigned 0.8502
+[hist_gradient_boosting] listo en 128.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/hist_gradient_boosting
+errores_en_log=0
+[experiments/logs/linear_svc.log]
+  warnings.warn(
+[linear_svc] FINAL (confirmacion): val 0.8288  train 0.8360  dif +0.0071  auc 0.9066 | K-Fold común 0.8332 | sin assigned 0.8225
+[linear_svc] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/linear_svc
+errores_en_log=0
+[experiments/logs/logistic.log]
+  warnings.warn(
+[logistic] FINAL (confirmacion): val 0.8271  train 0.8294  dif +0.0023  auc 0.9086 | K-Fold común 0.8288 | sin assigned 0.8197
+[logistic] listo en 47.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logistic
+errores_en_log=0
+[experiments/logs/random_forest.log]
+  25/26  val 0.8476  train 0.9049  dif +0.0573  13s
+  26/26  val 0.8469  train 0.8876  dif +0.0407  19s
+[random_forest] confirmación: val 0.8467 ± 0.0007  dif +0.0481
+errores_en_log=0
+[experiments/logs/ridge.log]
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+errores_en_log=0
+--- maquina
+Now drawing from 'AC Power'
+System-wide memory free percentage: 48%
+--- alertas
+corrida_activa=random_forest segundos_desde_ultima_escritura=45
+SIN_NOVEDADES
+==========

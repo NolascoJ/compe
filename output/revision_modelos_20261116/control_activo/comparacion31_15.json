@@ -1,0 +1,7 @@
+{
+  "diferencia_hgb31_menos15": 0.0039775678602720355,
+  "ic_condicional025": 0.00033501877304839615,
+  "ic_condicional975": 0.007660954484479634,
+  "regla_1se_de31": 0.004145993195522723,
+  "bootstrap_replicas": 2000
+}

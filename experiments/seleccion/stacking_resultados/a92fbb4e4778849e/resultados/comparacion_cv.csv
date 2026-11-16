@@ -1,0 +1,3 @@
+modelo,folds_ganados,diferencia_media,diferencia_global,ic025,ic975,pasa_filtro_cv,nota
+promedio,2,-0.0010004788404271326,-0.0009969596540669867,-0.0047328875758249215,0.002493857465072763,False,Filtro exploratorio; no elige ganador ni sustituye robustez. IC condicional a predicciones fijas.
+stacking,1,-0.0017196042374772124,-0.0017176224946290342,-0.005148967021892693,0.001347757529555908,False,Filtro exploratorio; no elige ganador ni sustituye robustez. IC condicional a predicciones fijas.

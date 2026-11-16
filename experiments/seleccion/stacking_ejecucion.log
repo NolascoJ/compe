@@ -1,0 +1,33 @@
+Run: /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/seleccion/stacking_resultados/a92fbb4e4778849e | tareas: 15 | pendientes: 15
+START cv 1
+START cv 0
+DONE cv 0 191.5s
+START cv 2
+DONE cv 1 191.6s
+START cv 3
+DONE cv 2 205.8s
+START cv 4
+DONE cv 3 206.8s
+START eval_anio_2015 None
+DONE cv 4 235.7s
+START eval_anio_2016 None
+DONE eval_anio_2015 None 248.4s
+START eval_anio_2017 None
+DONE eval_anio_2016 None 139.8s
+START eval_PRT None
+DONE eval_anio_2017 None 180.9s
+START eval_resto None
+DONE eval_resto None 89.3s
+START sin_locked 0
+DONE eval_PRT None 189.2s
+START sin_locked 1
+DONE sin_locked 0 223.9s
+START sin_locked 2
+DONE sin_locked 1 217.5s
+START sin_locked 3
+DONE sin_locked 2 200.3s
+START sin_locked 4
+DONE sin_locked 3 197.2s
+DONE sin_locked 4 169.2s
+Resultados: /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/seleccion/stacking_resultados/a92fbb4e4778849e/resultados
+COMPLETO

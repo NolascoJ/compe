@@ -1,0 +1,13 @@
+{
+  "key": {
+    "identity": "a92fbb4e4778849e",
+    "kind": "base",
+    "model": "hist_gradient_boosting",
+    "train": "25ea3e59e8d15979",
+    "evaluate": "7f43d78b136a63ad"
+  },
+  "sha256_npz": "bec59bd9cd7d00e67bf15e40cd8def6378e957ecfcfd921b09de44525612e770",
+  "source": "legacy interno block",
+  "seconds": 0.0,
+  "warnings": {}
+}

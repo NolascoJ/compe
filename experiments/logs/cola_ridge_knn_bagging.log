@@ -1,0 +1,184 @@
+2026-11-10 12:27:05 QUEUE_START controller_pid=29133 order=ridge,knn,bagging
+2026-11-10 12:27:05 START model=ridge stage=refinar
+2026-11-10 12:27:05 PID model=ridge stage=refinar pid=29139 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/ridge.log
+2026-11-10 12:29:46 QUEUE_START controller_pid=29351 order=ridge,knn,bagging
+2026-11-10 12:29:46 START model=ridge stage=refinar
+2026-11-10 12:29:46 PID model=ridge stage=refinar pid=29356 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/ridge.log
+2026-11-10 12:31:20 QUEUE_START controller_pid=29467 order=ridge,knn,bagging
+2026-11-10 12:31:20 START model=ridge stage=refinar
+2026-11-10 12:31:20 PID model=ridge stage=refinar pid=29472 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/ridge.log
+2026-11-10 12:31:35 DONE model=ridge stage=refinar pid=29472 exit=0
+2026-11-10 12:31:35 START model=ridge stage=confirmar
+2026-11-10 12:31:35 PID model=ridge stage=confirmar pid=29485 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/ridge.log
+2026-11-10 12:31:50 FAILED model=ridge stage=confirmar pid=29485 exit=1; queue stopped
+[ridge] refinamiento: 0 combinaciones por correr (0 ya guardadas)
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+[ridge] refinamiento omitido: la búsqueda amplia ya agotó el espacio candidato
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+[ridge] refinamiento omitido: la búsqueda amplia ya agotó el espacio candidato
+[ridge] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/ridge
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/src/compe/run.py", line 218, in <module>
+    main()
+    ~~~~^^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/src/compe/run.py", line 213, in main
+    FUNCIONES[e](spec, df, folds, out, a)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/src/compe/run.py", line 147, in etapa_confirmar
+    top = (ok if len(ok) else todas).nlargest(2 if a.rapido else 3, "ba_val")
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 9831, in nlargest
+    return selectn.SelectNFrame(self, n=n, keep=keep, columns=columns).nlargest()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/pandas/core/methods/selectn.py", line 74, in nlargest
+    return self.compute("nlargest")
+           ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/pandas/core/methods/selectn.py", line 233, in compute
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: Column 'ba_val' has dtype object, cannot use method 'nlargest' with this dtype
+2026-11-10 12:32:16 QUEUE_START controller_pid=29551 order=ridge,knn,bagging
+2026-11-10 12:32:16 START model=ridge stage=refinar
+2026-11-10 12:32:16 PID model=ridge stage=refinar pid=29556 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/ridge.log
+2026-11-10 12:32:31 DONE model=ridge stage=refinar pid=29556 exit=0
+2026-11-10 12:32:31 START model=ridge stage=confirmar
+2026-11-10 12:32:31 PID model=ridge stage=confirmar pid=29567 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/ridge.log
+2026-11-10 12:33:01 DONE model=ridge stage=confirmar pid=29567 exit=0
+2026-11-10 12:33:01 START model=ridge stage=final
+2026-11-10 12:33:01 PID model=ridge stage=final pid=29607 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/ridge.log
+2026-11-10 12:33:16 DONE model=ridge stage=final pid=29607 exit=0
+2026-11-10 12:33:16 START model=knn stage=busqueda
+2026-11-10 12:33:16 PID model=knn stage=busqueda pid=29648 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/knn.log
+2026-11-10 12:38:16 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 12:43:16 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 12:48:17 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 12:53:17 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 12:58:17 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 13:03:17 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 13:08:18 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 13:13:18 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 13:18:18 CHECK model=knn stage=busqueda pid=29648 status=running
+  2/60  val 0.7776  train 0.9112  dif +0.1337  1s
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 13:22:49 DONE model=knn stage=busqueda pid=29648 exit=0
+2026-11-10 13:22:49 START model=knn stage=refinar
+2026-11-10 13:22:49 PID model=knn stage=refinar pid=31996 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/knn.log
+2026-11-10 13:23:04 DONE model=knn stage=refinar pid=31996 exit=0
+2026-11-10 13:23:04 START model=knn stage=confirmar
+2026-11-10 13:23:04 PID model=knn stage=confirmar pid=32010 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/knn.log
+2026-11-10 13:28:04 CHECK model=knn stage=confirmar pid=32010 status=running
+[knn] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/knn
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 13:33:04 CHECK model=knn stage=confirmar pid=32010 status=running
+[knn] listo en 0.0 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/knn
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+2026-11-10 13:38:05 CHECK model=knn stage=confirmar pid=32010 status=running
+    return int(cpu_info)
+[knn] confirmación: val 0.8147 ± 0.0010  dif +0.0157
+[knn] confirmación: val 0.8137 ± 0.0012  dif +0.0148
+[knn] confirmación: val 0.8131 ± 0.0011  dif +0.0131
+[knn] listo en 14.7 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/knn
+2026-11-10 13:38:05 DONE model=knn stage=confirmar pid=32010 exit=0
+2026-11-10 13:38:05 START model=knn stage=final
+2026-11-10 13:38:05 PID model=knn stage=final pid=32556 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/knn.log
+2026-11-10 13:43:05 CHECK model=knn stage=final pid=32556 status=running
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+[knn] FINAL (confirmacion): val 0.8134  train 0.8268  dif +0.0134  auc 0.8987 | K-Fold común 0.8221 | sin assigned 0.8099
+[knn] listo en 4.8 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/knn
+2026-11-10 13:43:05 DONE model=knn stage=final pid=32556 exit=0
+2026-11-10 13:43:05 START model=bagging stage=base
+2026-11-10 13:43:05 PID model=bagging stage=base pid=32736 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/bagging.log
+2026-11-10 13:43:35 DONE model=bagging stage=base pid=32736 exit=0
+2026-11-10 13:43:35 START model=bagging stage=curva
+2026-11-10 13:43:35 PID model=bagging stage=curva pid=32766 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/bagging.log
+2026-11-10 13:44:50 DONE model=bagging stage=curva pid=32766 exit=0
+2026-11-10 13:44:50 START model=bagging stage=busqueda
+2026-11-10 13:44:50 PID model=bagging stage=busqueda pid=32820 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/bagging.log
+2026-11-10 13:49:50 CHECK model=bagging stage=busqueda pid=32820 status=running
+[bagging] curva max_depth=16: val 0.8454  train 0.9203
+[bagging] curva max_depth=24: val 0.8462  train 0.9878
+[bagging] curva max_depth=None: val 0.8460  train 0.9969
+[bagging] listo en 1.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+[bagging] búsqueda amplia: 60 combinaciones por correr (0 ya guardadas)
+2026-11-10 13:54:51 CHECK model=bagging stage=busqueda pid=32820 status=running
+[bagging] curva max_depth=16: val 0.8454  train 0.9203
+[bagging] curva max_depth=24: val 0.8462  train 0.9878
+[bagging] curva max_depth=None: val 0.8460  train 0.9969
+[bagging] listo en 1.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+[bagging] búsqueda amplia: 60 combinaciones por correr (0 ya guardadas)
+2026-11-10 13:59:51 CHECK model=bagging stage=busqueda pid=32820 status=running
+[bagging] curva max_depth=16: val 0.8454  train 0.9203
+[bagging] curva max_depth=24: val 0.8462  train 0.9878
+[bagging] curva max_depth=None: val 0.8460  train 0.9969
+[bagging] listo en 1.2 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+[bagging] búsqueda amplia: 60 combinaciones por correr (0 ya guardadas)
+2026-11-10 14:00:06 DONE model=bagging stage=busqueda pid=32820 exit=0
+2026-11-10 14:00:06 START model=bagging stage=refinar
+2026-11-10 14:00:06 PID model=bagging stage=refinar pid=33553 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/bagging.log
+2026-11-10 14:05:06 CHECK model=bagging stage=refinar pid=33553 status=running
+  58/60  val 0.8397  train 0.8661  dif +0.0264  21s
+  59/60  val 0.8362  train 0.8501  dif +0.0139  7s
+  60/60  val 0.8410  train 0.8624  dif +0.0214  7s
+[bagging] listo en 15.1 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/bagging
+[bagging] refinamiento: 20 combinaciones por correr (0 ya guardadas)
+2026-11-10 14:07:52 DONE model=bagging stage=refinar pid=33553 exit=0
+2026-11-10 14:07:52 START model=bagging stage=confirmar
+2026-11-10 14:07:52 PID model=bagging stage=confirmar pid=34397 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/bagging.log
+2026-11-10 14:11:52 DONE model=bagging stage=confirmar pid=34397 exit=0
+2026-11-10 14:11:52 START model=bagging stage=final
+2026-11-10 14:11:52 PID model=bagging stage=final pid=34577 log=/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/bagging.log
+2026-11-10 14:13:07 DONE model=bagging stage=final pid=34577 exit=0
+2026-11-10 14:13:07 QUEUE_DONE controller_pid=29551 exit=0

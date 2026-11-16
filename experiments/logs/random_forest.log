@@ -1,0 +1,122 @@
+[random_forest] base: val 0.8529  train 0.9973  dif +0.1444
+[random_forest] curva max_depth=2: val 0.7721  train 0.7728
+[random_forest] curva max_depth=4: val 0.8149  train 0.8194
+[random_forest] curva max_depth=6: val 0.8217  train 0.8296
+[random_forest] curva max_depth=8: val 0.8290  train 0.8437
+[random_forest] curva max_depth=12: val 0.8430  train 0.8849
+[random_forest] curva max_depth=16: val 0.8496  train 0.9305
+[random_forest] curva max_depth=24: val 0.8517  train 0.9801
+[random_forest] curva max_depth=None: val 0.8529  train 0.9973
+[random_forest] búsqueda amplia: 80 combinaciones por correr (0 ya guardadas)
+  1/80  val 0.8400  train 0.8714  dif +0.0314  6s
+  2/80  val 0.8200  train 0.8257  dif +0.0057  8s
+  3/80  val 0.8289  train 0.8417  dif +0.0127  10s
+  4/80  val 0.8422  train 0.8800  dif +0.0377  13s
+  5/80  val 0.8381  train 0.8654  dif +0.0273  11s
+  6/80  val 0.8383  train 0.8655  dif +0.0272  6s
+  7/80  val 0.8351  train 0.8595  dif +0.0244  9s
+  8/80  val 0.8278  train 0.8394  dif +0.0116  18s
+  9/80  val 0.8286  train 0.8420  dif +0.0134  6s
+  10/80  val 0.8260  train 0.8370  dif +0.0110  6s
+  11/80  val 0.8439  train 0.8764  dif +0.0326  15s
+  12/80  val 0.8434  train 0.8826  dif +0.0393  22s
+  13/80  val 0.8373  train 0.8672  dif +0.0298  8s
+  14/80  val 0.8379  train 0.8668  dif +0.0289  15s
+  15/80  val 0.8372  train 0.8599  dif +0.0227  7s
+  16/80  val 0.8417  train 0.8761  dif +0.0344  20s
+  17/80  val 0.8379  train 0.8655  dif +0.0277  9s
+  18/80  val 0.8171  train 0.8246  dif +0.0075  13s
+  19/80  val 0.8532  train 0.9392  dif +0.0860  23s
+  20/80  val 0.8346  train 0.8523  dif +0.0177  14s
+  21/80  val 0.8415  train 0.8763  dif +0.0349  15s
+  22/80  val 0.8198  train 0.8266  dif +0.0068  10s
+  23/80  val 0.8273  train 0.8390  dif +0.0117  20s
+  24/80  val 0.8435  train 0.8795  dif +0.0360  9s
+  25/80  val 0.8313  train 0.8495  dif +0.0183  11s
+  26/80  val 0.8428  train 0.8812  dif +0.0384  10s
+  27/80  val 0.8451  train 0.8912  dif +0.0461  11s
+  28/80  val 0.8203  train 0.8260  dif +0.0056  4s
+  29/80  val 0.8339  train 0.8513  dif +0.0173  14s
+  30/80  val 0.8419  train 0.8803  dif +0.0384  6s
+  31/80  val 0.8477  train 0.8940  dif +0.0463  7s
+  32/80  val 0.8215  train 0.8268  dif +0.0052  7s
+  33/80  val 0.8187  train 0.8257  dif +0.0070  13s
+  34/80  val 0.8401  train 0.8717  dif +0.0316  15s
+  35/80  val 0.8408  train 0.8753  dif +0.0346  6s
+  36/80  val 0.8374  train 0.8626  dif +0.0252  8s
+  37/80  val 0.8380  train 0.8621  dif +0.0241  18s
+  38/80  val 0.8437  train 0.8777  dif +0.0341  15s
+  39/80  val 0.8278  train 0.8400  dif +0.0122  7s
+  40/80  val 0.8395  train 0.8586  dif +0.0191  8s
+  41/80  val 0.8161  train 0.8244  dif +0.0083  8s
+  42/80  val 0.8403  train 0.8706  dif +0.0304  6s
+  43/80  val 0.8384  train 0.8578  dif +0.0194  15s
+  44/80  val 0.8275  train 0.8424  dif +0.0149  9s
+  45/80  val 0.8333  train 0.8538  dif +0.0206  7s
+  46/80  val 0.8439  train 0.8824  dif +0.0385  12s
+  47/80  val 0.8424  train 0.8809  dif +0.0385  5s
+  48/80  val 0.8409  train 0.8756  dif +0.0347  11s
+  49/80  val 0.8177  train 0.8260  dif +0.0083  6s
+  50/80  val 0.8349  train 0.8584  dif +0.0235  6s
+  51/80  val 0.8430  train 0.8782  dif +0.0352  14s
+  52/80  val 0.8214  train 0.8278  dif +0.0064  9s
+  53/80  val 0.8186  train 0.8239  dif +0.0053  20s
+  54/80  val 0.8271  train 0.8376  dif +0.0105  7s
+  55/80  val 0.8303  train 0.8423  dif +0.0121  13s
+  56/80  val 0.8389  train 0.8601  dif +0.0213  18s
+  57/80  val 0.8318  train 0.8486  dif +0.0168  8s
+  58/80  val 0.8365  train 0.8646  dif +0.0281  8s
+  59/80  val 0.8452  train 0.8987  dif +0.0534  5s
+  60/80  val 0.8386  train 0.8605  dif +0.0219  13s
+  61/80  val 0.8451  train 0.8893  dif +0.0441  8s
+  62/80  val 0.8361  train 0.8633  dif +0.0272  17s
+  63/80  val 0.8297  train 0.8461  dif +0.0164  5s
+  64/80  val 0.8388  train 0.8640  dif +0.0251  6s
+  65/80  val 0.8384  train 0.8654  dif +0.0270  24s
+  66/80  val 0.8281  train 0.8403  dif +0.0122  5s
+  67/80  val 0.8366  train 0.8620  dif +0.0255  10s
+  68/80  val 0.8184  train 0.8257  dif +0.0073  8s
+  69/80  val 0.8220  train 0.8293  dif +0.0073  11s
+  70/80  val 0.8331  train 0.8503  dif +0.0171  18s
+  71/80  val 0.8170  train 0.8244  dif +0.0075  11s
+  72/80  val 0.8334  train 0.8549  dif +0.0214  8s
+  73/80  val 0.8322  train 0.8519  dif +0.0196  10s
+  74/80  val 0.8407  train 0.8750  dif +0.0343  19s
+  75/80  val 0.8454  train 0.8895  dif +0.0441  9s
+  76/80  val 0.8393  train 0.8703  dif +0.0310  15s
+  77/80  val 0.8377  train 0.8686  dif +0.0309  20s
+  78/80  val 0.8378  train 0.8619  dif +0.0241  6s
+  79/80  val 0.8299  train 0.8435  dif +0.0136  9s
+  80/80  val 0.8432  train 0.8764  dif +0.0333  8s
+[random_forest] refinamiento: 26 combinaciones por correr (0 ya guardadas)
+  1/26  val 0.8466  train 0.9083  dif +0.0617  11s
+  2/26  val 0.8451  train 0.8915  dif +0.0464  14s
+  3/26  val 0.8445  train 0.8868  dif +0.0423  8s
+  4/26  val 0.8448  train 0.8858  dif +0.0410  10s
+  5/26  val 0.8441  train 0.8813  dif +0.0373  9s
+  6/26  val 0.8464  train 0.8891  dif +0.0427  17s
+  7/26  val 0.8515  train 0.9354  dif +0.0839  15s
+  8/26  val 0.8474  train 0.8891  dif +0.0416  10s
+  9/26  val 0.8426  train 0.8731  dif +0.0305  9s
+  10/26  val 0.8436  train 0.8828  dif +0.0392  8s
+  11/26  val 0.8469  train 0.8979  dif +0.0510  10s
+  12/26  val 0.8444  train 0.8896  dif +0.0452  12s
+  13/26  val 0.8454  train 0.8909  dif +0.0456  7s
+  14/26  val 0.8459  train 0.8955  dif +0.0496  14s
+  15/26  val 0.8451  train 0.8883  dif +0.0432  13s
+  16/26  val 0.8447  train 0.8951  dif +0.0504  6s
+  17/26  val 0.8447  train 0.8877  dif +0.0430  12s
+  18/26  val 0.8445  train 0.8890  dif +0.0445  12s
+  19/26  val 0.8463  train 0.8973  dif +0.0511  13s
+  20/26  val 0.8450  train 0.8878  dif +0.0427  11s
+  21/26  val 0.8454  train 0.8886  dif +0.0432  25s
+  22/26  val 0.8486  train 0.9059  dif +0.0573  23s
+  23/26  val 0.8447  train 0.8943  dif +0.0496  15s
+  24/26  val 0.8473  train 0.9024  dif +0.0551  13s
+  25/26  val 0.8476  train 0.9049  dif +0.0573  13s
+  26/26  val 0.8469  train 0.8876  dif +0.0407  19s
+[random_forest] confirmación: val 0.8467 ± 0.0007  dif +0.0481
+[random_forest] confirmación: val 0.8462 ± 0.0012  dif +0.0421
+[random_forest] confirmación: val 0.8451 ± 0.0013  dif +0.0426
+[random_forest] FINAL (confirmacion): val 0.8474  train 0.8891  dif +0.0416  auc 0.9340 | K-Fold común 0.8640 | sin assigned 0.8439
+[random_forest] listo en 27.3 min -> /Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/random_forest

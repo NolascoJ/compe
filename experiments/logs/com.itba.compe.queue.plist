@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.itba.compe.queue</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/queue_ridge_knn_bagging.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/jnolascodecarles/ITBA/4_1Q/ml/compe</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>StandardOutPath</key>
+  <string>/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/launchd_queue.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/jnolascodecarles/ITBA/4_1Q/ml/compe/experiments/logs/launchd_queue.err.log</string>
+</dict>
+</plist>

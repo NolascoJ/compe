@@ -1,0 +1,23 @@
+{
+  "modelo": "linear_svc",
+  "familia": "SVM",
+  "variante_preprocesamiento": "A",
+  "puntuacion": "decision",
+  "ba_val": 0.8288433011703495,
+  "ba_train": 0.8359858278950885,
+  "gap": 0.007142526724738918,
+  "ba_std": 0.013285956464471267,
+  "umbral": -0.20867244664712645,
+  "roc_auc": 0.9066141703188965,
+  "f1": 0.8007818559771648,
+  "precision": 0.7933239072969817,
+  "recall": 0.8083813580556252,
+  "completados_detectados": 0.8493052442850739,
+  "fit_seconds": 3.3566150665283203,
+  "ba_val_kfold_comun": 0.8332358042035638,
+  "inflado_por_copias": 0.004392503033214257,
+  "ba_val_sin_assigned": 0.8224671636237564,
+  "umbral_sin_assigned": -0.2691932964163199,
+  "combinaciones_probadas": 53,
+  "max_gap": 0.05
+}

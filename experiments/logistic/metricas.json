@@ -1,0 +1,23 @@
+{
+  "modelo": "logistic",
+  "familia": "Lineales",
+  "variante_preprocesamiento": "A",
+  "puntuacion": "proba",
+  "ba_val": 0.8271331079869195,
+  "ba_train": 0.829428047088825,
+  "gap": 0.00229493910190548,
+  "ba_std": 0.013571536856563303,
+  "umbral": 0.46608110303546374,
+  "roc_auc": 0.9086344909169791,
+  "f1": 0.800023967164984,
+  "precision": 0.7666953775480907,
+  "recall": 0.8363818591831621,
+  "completados_detectados": 0.8178843567906768,
+  "fit_seconds": 68.72934865951538,
+  "ba_val_kfold_comun": 0.828816762300564,
+  "inflado_por_copias": 0.0016836543136444782,
+  "ba_val_sin_assigned": 0.8197179394336496,
+  "umbral_sin_assigned": 0.48053982654154276,
+  "combinaciones_probadas": 80,
+  "max_gap": 0.05
+}

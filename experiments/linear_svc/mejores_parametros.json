@@ -1,0 +1,9 @@
+{
+  "modelo": "linear_svc",
+  "origen": "confirmacion",
+  "params": {
+    "C": 0.06636028459598958,
+    "class_weight": null,
+    "config": "l2_hinge"
+  }
+}

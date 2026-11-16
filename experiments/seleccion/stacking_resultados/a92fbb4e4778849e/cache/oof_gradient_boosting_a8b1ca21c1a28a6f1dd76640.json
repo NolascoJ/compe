@@ -1,0 +1,13 @@
+{
+  "key": {
+    "identity": "a92fbb4e4778849e",
+    "kind": "oof",
+    "model": "gradient_boosting",
+    "train": "13db5f12eee890e0",
+    "evaluate": null
+  },
+  "sha256_npz": "7b558614cd15aff6cee843076d90a11f01e1e48518ac9a05e84b413b74ec4b5a",
+  "source": "assembled",
+  "seconds": 0.0,
+  "warnings": {}
+}

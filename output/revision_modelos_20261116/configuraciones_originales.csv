@@ -1,0 +1,86 @@
+modelo,ba_original_con_assigned,gap_original_con_assigned,ba_original_sin_assigned_oof,auc_original_sin_assigned,umbral_sin_assigned,n_busqueda,params
+bagging,0.8477434295519917,0.045628303434166684,0.8404223684149938,0.9237915127503941,0.39696852249361214,80,"{
+  ""modelo"": ""bagging"",
+  ""origen"": ""confirmacion"",
+  ""params"": {
+    ""max_depth"": 14,
+    ""max_features"": 0.4838781988765945,
+    ""max_samples"": 0.7412447175717363,
+    ""min_samples_leaf"": 13,
+    ""n_estimators"": 322
+  }
+}"
+gradient_boosting,0.8532961180810117,0.04324568221727698,0.8479675864150187,0.9347809577376079,0.37243945217878416,80,"{
+  ""modelo"": ""gradient_boosting"",
+  ""origen"": ""confirmacion"",
+  ""params"": {
+    ""learning_rate"": 0.0306778319694446,
+    ""max_depth"": 6,
+    ""max_features"": 0.9072434422266273,
+    ""min_samples_leaf"": 45,
+    ""n_estimators"": 522,
+    ""subsample"": 0.8259655127899871
+  }
+}"
+hist_gradient_boosting,0.8572094810814247,0.04200004068340446,0.8502190186772771,0.9373303795035917,0.4110371559247107,160,"{
+  ""modelo"": ""hist_gradient_boosting"",
+  ""origen"": ""confirmacion"",
+  ""params"": {
+    ""class_weight"": null,
+    ""l2_regularization"": 2.3368798682120397,
+    ""learning_rate"": 0.01717867776592487,
+    ""max_depth"": 12,
+    ""max_features"": 0.6829114870494657,
+    ""max_iter"": 868,
+    ""max_leaf_nodes"": 32,
+    ""min_samples_leaf"": 175
+  }
+}"
+knn,0.8133804533980029,0.013418687621037373,0.8099310180312695,0.8952244199493684,0.46534653465346537,60,"{
+  ""modelo"": ""knn"",
+  ""origen"": ""confirmacion"",
+  ""params"": {
+    ""n_neighbors"": 101,
+    ""p"": 1,
+    ""weights"": ""uniform""
+  }
+}"
+linear_svc,0.8288433011703495,0.007142526724738918,0.8224671636237564,0.9012933599702873,-0.2691932964163199,53,"{
+  ""modelo"": ""linear_svc"",
+  ""origen"": ""confirmacion"",
+  ""params"": {
+    ""C"": 0.06636028459598958,
+    ""class_weight"": null,
+    ""config"": ""l2_hinge""
+  }
+}"
+logistic,0.8271331079869195,0.00229493910190548,0.8197179394336496,0.9038708171377532,0.48053982654154276,80,"{
+  ""modelo"": ""logistic"",
+  ""origen"": ""confirmacion"",
+  ""params"": {
+    ""C"": 0.016779852749843744,
+    ""class_weight"": ""balanced"",
+    ""l1_ratio"": 0.0
+  }
+}"
+random_forest,0.8474437834747186,0.041614608448424906,0.8438747294590776,0.93123809864216,0.3887880359977398,106,"{
+  ""modelo"": ""random_forest"",
+  ""origen"": ""confirmacion"",
+  ""params"": {
+    ""class_weight"": null,
+    ""max_depth"": 14,
+    ""max_features"": 0.4,
+    ""max_samples"": 0.808024589718653,
+    ""min_samples_leaf"": 6,
+    ""min_samples_split"": 17,
+    ""n_estimators"": 469
+  }
+}"
+ridge,0.8247151704288481,0.005687757290871676,0.8192030314509754,0.904142868630573,-0.15275096656675352,50,"{
+  ""modelo"": ""ridge"",
+  ""origen"": ""confirmacion"",
+  ""params"": {
+    ""alpha"": 23.71373705661655,
+    ""class_weight"": null
+  }
+}"

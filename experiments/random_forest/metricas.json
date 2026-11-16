@@ -1,0 +1,23 @@
+{
+  "modelo": "random_forest",
+  "familia": "Bagging",
+  "variante_preprocesamiento": "D",
+  "puntuacion": "proba",
+  "ba_val": 0.8474437834747186,
+  "ba_train": 0.8890583919231435,
+  "gap": 0.041614608448424906,
+  "ba_std": 0.008262234532807649,
+  "umbral": 0.3539387431511797,
+  "roc_auc": 0.9340019371802603,
+  "f1": 0.8226729380748374,
+  "precision": 0.7884008039046799,
+  "recall": 0.8600601353044349,
+  "completados_detectados": 0.8348274316450023,
+  "fit_seconds": 11.538168907165527,
+  "ba_val_kfold_comun": 0.8640286565884849,
+  "inflado_por_copias": 0.01658487311376633,
+  "ba_val_sin_assigned": 0.8438747294590776,
+  "umbral_sin_assigned": 0.3887880359977398,
+  "combinaciones_probadas": 106,
+  "max_gap": 0.05
+}

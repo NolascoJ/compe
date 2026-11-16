@@ -1,0 +1,9 @@
+{
+  "modelo": "logistic",
+  "origen": "confirmacion",
+  "params": {
+    "C": 0.016779852749843744,
+    "class_weight": "balanced",
+    "l1_ratio": 0.0
+  }
+}

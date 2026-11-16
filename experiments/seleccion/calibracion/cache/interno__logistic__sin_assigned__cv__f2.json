@@ -1,0 +1,35 @@
+{
+  "clave": {
+    "version_calculo": "1",
+    "tipo": "interno",
+    "modelo": "logistic",
+    "params": "{\"C\": 0.016779852749843744, \"class_weight\": \"balanced\", \"l1_ratio\": 0.0}",
+    "assigned": false,
+    "variante_preprocesamiento": "A",
+    "puntuacion": "proba",
+    "escenario": "cv",
+    "fold": 2,
+    "semilla": 42,
+    "n_folds_externos": 5,
+    "n_folds_internos": 3,
+    "filas_entrenamiento": 30620,
+    "hash_train_idx": "990a172f599d0d1a",
+    "filas_evaluacion": null,
+    "hash_eval_idx": null,
+    "hash_train_csv": "3a66602dadce693786294ab7fe37f9a6f9a03a101ab97fd439d713b4c76c496d",
+    "hash_codigo": "57338175fd1d16a5",
+    "versiones": {
+      "python": "3.14.2",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "sklearn": "1.9.1",
+      "joblib": "1.6.0"
+    },
+    "constructor": "make_pipeline"
+  },
+  "segundos": 12.501897096633911,
+  "advertencias": {
+    "FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalt": 3
+  },
+  "creado": "2026-11-10T14:51:05"
+}

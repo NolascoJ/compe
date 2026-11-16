@@ -1,0 +1,23 @@
+{
+  "modelo": "ridge",
+  "familia": "Lineales",
+  "variante_preprocesamiento": "A",
+  "puntuacion": "decision",
+  "ba_val": 0.8247151704288481,
+  "ba_train": 0.8304029277197198,
+  "gap": 0.005687757290871676,
+  "ba_std": 0.010577764981022149,
+  "umbral": -0.16857995239641052,
+  "roc_auc": 0.9082383031026444,
+  "f1": 0.7973276611042872,
+  "precision": 0.7641113982199254,
+  "recall": 0.8335630167877724,
+  "completados_detectados": 0.8158673240699238,
+  "fit_seconds": 0.7521963119506836,
+  "ba_val_kfold_comun": 0.8295777444566277,
+  "inflado_por_copias": 0.004862574027779565,
+  "ba_val_sin_assigned": 0.8192030314509754,
+  "umbral_sin_assigned": -0.15275096656675352,
+  "combinaciones_probadas": 50,
+  "max_gap": 0.05
+}

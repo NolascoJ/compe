@@ -1,0 +1,70 @@
+{
+  "train_sha256": "3a66602dadce693786294ab7fe37f9a6f9a03a101ab97fd439d713b4c76c496d",
+  "script_sha256": "cb7c10182386c2f2d5c440571fa6f9b50f7a0c1f620b79c975fd9777e85e88ee",
+  "seed": 42,
+  "n_externos": 5,
+  "n_internos": 3,
+  "active_columns": [
+    "execution_year",
+    "execution_month",
+    "execution_day",
+    "hours_before_execution",
+    "peak_gpu_hours",
+    "offpeak_gpu_hours",
+    "num_primary_processes",
+    "num_auxiliary_processes",
+    "num_background_processes",
+    "previous_job_cancellations",
+    "successful_previous_jobs",
+    "resource_modifications",
+    "queue_wait_time",
+    "estimated_cost_per_hour",
+    "special_resource_requests",
+    "returning_client",
+    "reserved_storage_units",
+    "high_value_client",
+    "service_tier",
+    "client_region",
+    "client_type",
+    "request_channel",
+    "reserved_gpu_type",
+    "reservation_commitment",
+    "workload_profile",
+    "orchestration_agent_id",
+    "organization_id",
+    "total_processes",
+    "total_gpu_hours"
+  ],
+  "candidates": [
+    [
+      "HistGB_31",
+      "hist_gradient_boosting",
+      {}
+    ],
+    [
+      "HistGB_15",
+      "hist_gradient_boosting",
+      {
+        "max_leaf_nodes": 15
+      }
+    ],
+    [
+      "GradientBoosting",
+      "gradient_boosting",
+      {
+        "learning_rate": 0.0181934103555239,
+        "max_depth": 6,
+        "max_features": 0.8172888027408792,
+        "min_samples_leaf": 82,
+        "n_estimators": 586,
+        "subsample": 0.8577035648079008
+      }
+    ]
+  ],
+  "versions": {
+    "python": "3.14.2",
+    "sklearn": "1.9.1",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4"
+  }
+}

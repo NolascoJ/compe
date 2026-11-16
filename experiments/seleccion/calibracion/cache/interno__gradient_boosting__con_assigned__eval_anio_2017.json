@@ -1,0 +1,33 @@
+{
+  "clave": {
+    "version_calculo": "1",
+    "tipo": "interno",
+    "modelo": "gradient_boosting",
+    "params": "{\"learning_rate\": 0.0181934103555239, \"max_depth\": 6, \"max_features\": 0.8172888027408792, \"min_samples_leaf\": 82, \"n_estimators\": 586, \"subsample\": 0.8577035648079008}",
+    "assigned": true,
+    "variante_preprocesamiento": "D",
+    "puntuacion": "proba",
+    "escenario": "eval_anio_2017",
+    "fold": null,
+    "semilla": 42,
+    "n_folds_externos": 5,
+    "n_folds_internos": 3,
+    "filas_entrenamiento": 25047,
+    "hash_train_idx": "f2c40637ea38f977",
+    "filas_evaluacion": null,
+    "hash_eval_idx": null,
+    "hash_train_csv": "3a66602dadce693786294ab7fe37f9a6f9a03a101ab97fd439d713b4c76c496d",
+    "hash_codigo": "57338175fd1d16a5",
+    "versiones": {
+      "python": "3.14.2",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "sklearn": "1.9.1",
+      "joblib": "1.6.0"
+    },
+    "constructor": "make_pipeline"
+  },
+  "segundos": 55.29190516471863,
+  "advertencias": {},
+  "creado": "2026-11-10T15:01:58"
+}

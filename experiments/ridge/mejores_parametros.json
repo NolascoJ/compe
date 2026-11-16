@@ -1,0 +1,8 @@
+{
+  "modelo": "ridge",
+  "origen": "confirmacion",
+  "params": {
+    "alpha": 23.71373705661655,
+    "class_weight": null
+  }
+}

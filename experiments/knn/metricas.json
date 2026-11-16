@@ -1,0 +1,23 @@
+{
+  "modelo": "knn",
+  "familia": "Distancias",
+  "variante_preprocesamiento": "B",
+  "puntuacion": "proba",
+  "ba_val": 0.8133804533980029,
+  "ba_train": 0.8267991410190403,
+  "gap": 0.013418687621037373,
+  "ba_std": 0.011486650608499117,
+  "umbral": 0.4752475247524752,
+  "roc_auc": 0.898682006219507,
+  "f1": 0.7820904934573546,
+  "precision": 0.7873785791378325,
+  "recall": 0.7768729641693811,
+  "completados_detectados": 0.8498879426266248,
+  "fit_seconds": 0.6511764526367188,
+  "ba_val_kfold_comun": 0.8220890942316312,
+  "inflado_por_copias": 0.008708640833628323,
+  "ba_val_sin_assigned": 0.8099310180312695,
+  "umbral_sin_assigned": 0.46534653465346537,
+  "combinaciones_probadas": 60,
+  "max_gap": 0.05
+}

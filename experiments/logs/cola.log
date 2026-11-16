@@ -1,0 +1,11 @@
+20:51:34 inicia ridge
+20:52:10 termina ridge exit=0
+20:52:10 inicia logistic
+21:39:58 termina logistic exit=0
+21:39:58 inicia linear_svc
+21:44:50 termina linear_svc exit=0
+21:44:50 inicia hist_gradient_boosting
+23:53:06 termina hist_gradient_boosting exit=0
+23:53:06 inicia random_forest
+00:20:25 termina random_forest exit=0
+00:20:25 inicia knn

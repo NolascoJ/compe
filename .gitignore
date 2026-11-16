@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+models/*
+!models/.gitkeep
+experiments/_prueba/
+
+# Entornos, credenciales y temporales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pid
+
+# Presentaciones y trabajo de Canva (no publicar)
+/output/defensa_tp3/
+/output/defensa_tp3_v2/
+/output/defensa_tp3_v3/
+/output/presentacion_final/
+
+# Artefacto >100 MiB: se publica su copia .csv.gz sin pérdida
+/experiments/seleccion/calibracion/resultados/predicciones_externas.csv

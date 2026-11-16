@@ -1,0 +1,9 @@
+subgrupo,filas,tasa_cancelacion,ba,cancelados_detectados,completados_detectados
+todo,38274,0.4171,0.8288,0.8084,0.8493
+sin_locked_allocation,32126,0.306,0.7693,0.689,0.8495
+region_PRT,14758,0.652,0.8197,0.8791,0.7603
+region_resto,23516,0.2697,0.7885,0.701,0.8759
+anio_2015,6393,0.448,0.8918,0.8516,0.932
+anio_2016,18654,0.4082,0.8316,0.8014,0.8617
+anio_2017,13227,0.4148,0.7947,0.7955,0.794
+no_show,428,1.0,,0.3949,

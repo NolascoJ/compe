@@ -1,0 +1,33 @@
+{
+  "estado": "recomendado_para_evaluacion_unica_no_ejecutada",
+  "modelo": "hist_gradient_boosting",
+  "params": {
+    "learning_rate": 0.1,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "max_depth": null,
+    "min_samples_leaf": 20,
+    "l2_regularization": 0.0,
+    "max_features": 1.0,
+    "class_weight": null,
+    "categorical_features": "from_dtype",
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "variante_preprocesamiento": "E",
+  "use_assigned": false,
+  "umbral_propuesto": 0.38294747099493937,
+  "origen_umbral": "OOF agrupados de train; no usar etiquetas de test",
+  "advertencia": "BA externa con cinco umbrales internos; no atribuirla al umbral global.",
+  "entrenamiento_propuesto": "todo train; todav\u00eda no ejecutado",
+  "corrida_evidencia": "a92fbb4e4778849e",
+  "hash_train": "3a66602dadce693786294ab7fe37f9a6f9a03a101ab97fd439d713b4c76c496d",
+  "hash_codigo": "57338175fd1d16a5",
+  "versiones": {
+    "python": "3.14.2",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "key": {
+    "identity": "a92fbb4e4778849e",
+    "kind": "base",
+    "model": "random_forest",
+    "train": "f52afe6123dcf5d4",
+    "evaluate": "73ba8db3338d7cd9"
+  },
+  "sha256_npz": "5965d3d11f71638734a42fc94dc5cc14e2b120ed87a174238a3347ddc94cf066",
+  "source": "fit",
+  "seconds": 6.916294813156128,
+  "warnings": {}
+}
