@@ -25,12 +25,11 @@ experiments/_prueba/
 /experiments/seleccion/calibracion/resultados/predicciones_externas.csv
 
 # Documentación y herramientas internas (se conservan localmente)
-/CLAUDE.md
 /TODO.md
 /docs/
 /reports/analisis_consigna.md
 /entrega/predictor_v2_Grupo_9.py.zip
-/reports/prompt_*.md
+/experiments/logs/monitor.log
 /experiments/seleccion/analisis.py
 /experiments/seleccion/historico/
 /experiments/comparacion_entrega_v1/
