@@ -1,0 +1,48 @@
+{
+  "fracciones": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "semillas_submuestra": [
+    42,
+    43,
+    44
+  ],
+  "folds_externos": 5,
+  "folds_internos": 3,
+  "parametros": {
+    "hist_gradient_boosting": {},
+    "logistic": {
+      "C": 0.016779852749843744,
+      "class_weight": "balanced",
+      "l1_ratio": 0.0
+    }
+  },
+  "use_assigned": false,
+  "test_csv_leido": false,
+  "control_100": {
+    "hist_gradient_boosting": {
+      "referencia_calibracion": 0.8482931676954456,
+      "ba_global_100": 0.8482931676954456,
+      "diferencia": 0.0,
+      "ba_media_folds": 0.8482972327608355
+    },
+    "logistic": {
+      "referencia_calibracion": 0.8201098033102495,
+      "ba_global_100": 0.8201098033102495,
+      "diferencia": 0.0,
+      "ba_media_folds": 0.8201129767442238
+    }
+  },
+  "python": "3.14.7",
+  "sklearn": "1.9.1",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4"
+}

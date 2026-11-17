@@ -37,6 +37,8 @@ La prueba en Colab produjo predicciones, pero advirtió una diferencia entre skl
 | `experiments/<modelo>/` | Búsquedas, curvas, confirmaciones y predicciones. |
 | `experiments/seleccion/` | Calibración interna, ensembles y controles. |
 | `experiments/evaluacion_final_histgb/` | Evaluación del holdout ya realizada y artefacto entrenado. |
+| `experiments/curva_aprendizaje/` | Curva de aprendizaje de HistGB y logística sobre train. |
+| `experiments/adquisicion_datos/` | Errores OOF de HistGB por segmento. |
 | `entrega/` | Predictor autocontenido, construcción, verificación y ejemplo de entrada. |
 | `reports/` | EDA, selección, controles y evaluación final. |
 | `output/revision_modelos_20261116/` | Auditoría y controles adicionales sobre train. |
@@ -55,6 +57,10 @@ python scripts/restaurar_artefactos.py
 PYTHONPATH=src python -m compe.run --listar
 PYTHONPATH=src python experiments/seleccion/calibracion.py todo --dry-run
 PYTHONPATH=src python experiments/seleccion/stacking.py todo --dry-run
+PYTHONPATH=src python experiments/curva_aprendizaje/curva_aprendizaje.py calcular --jobs 8
+PYTHONPATH=src python experiments/curva_aprendizaje/curva_aprendizaje.py resumir
+PYTHONPATH=src python experiments/curva_aprendizaje/curva_aprendizaje.py graficar
+PYTHONPATH=src python experiments/adquisicion_datos/evidencia.py
 ```
 
 - [Calibración y robustez](experiments/seleccion/README.md).
@@ -69,6 +75,7 @@ PYTHONPATH=src python experiments/seleccion/stacking.py todo --dry-run
 - [Selección final y ensembles](reports/seleccion_final_stacking.md).
 - [Comparación del gap](reports/control_gap_sin_assigned.md).
 - [Evaluación del holdout](reports/evaluacion_final_histgb.md).
+- [Curva de aprendizaje](reports/curva_aprendizaje.md) y [adquisición de datos](reports/adquisicion_datos.md).
 - [Auditoría adicional](output/revision_modelos_20261116/informe.md).
 
 El preprocesamiento y el umbral se ajustan dentro del entrenamiento de cada partición. Target, estado y fecha de estado se excluyen de las entradas. La elección histórica de hiperparámetros no fue completamente anidada. El holdout ya fue consultado y no es una evaluación independiente nueva para variantes posteriores. El modelo presenta caídas ante cambios de distribución; el resultado local no garantiza la puntuación de competencia.
