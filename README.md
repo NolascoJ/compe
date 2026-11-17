@@ -69,15 +69,11 @@ PYTHONPATH=src python experiments/adquisicion_datos/evidencia.py
 
 `requirements-lock.txt` registra el entorno de desarrollo histórico; `entrega/requirements.txt` fija las dependencias del predictor. Los rangos de `pyproject.toml` no garantizan compatibilidad con un modelo serializado. `scripts/restaurar_artefactos.py --check` verifica los archivos comprimidos sin restaurarlos.
 
-## Contexto y estado de entrega
+## Estado de entrega
 
-- [Contexto técnico y decisiones](docs/CONTEXTO.md).
-- [Requisitos completados y pendientes](docs/ENTREGA.md).
-- [Mapa del proyecto](docs/ESTRUCTURA.md).
-- [Análisis de errores y estrategia de intervención](reports/analisis_consigna.md).
-- [Notebook de resultados](notebooks/02_resultados.ipynb).
+La [notebook de resultados](notebooks/02_resultados.ipynb) reúne la comparación de modelos, el análisis de errores por cohortes y la estrategia de intervención. Su código y tablas se conservan en `experiments/analisis_consigna/` para reproducirla.
 
-La publicación del código no equivale al envío a la cátedra. Colab y la disponibilidad de las entradas activas requieren las comprobaciones indicadas en el estado de entrega.
+La publicación del código no equivale al envío a la cátedra. Sigue pendiente validar las versiones exactas en Colab y confirmar que el evaluador entregue `high_value_client`, `total_processes` y `total_gpu_hours`. La documentación interna de contexto y revisión se conserva localmente, fuera del seguimiento de Git.
 
 ## Resultados y límites
 

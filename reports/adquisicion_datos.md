@@ -26,7 +26,7 @@ Todo sale de TRAIN, con el corte interno de cada fold y sin GPU asignada; `test.
 
 «Sin historial previo» significa `returning_client = 0`, sin cancelaciones previas y sin trabajos previos exitosos. La fila de regiones suma las frecuentes y las raras.
 
-La anticipación usa `hours_before_execution`: horas entre creación y ejecución programada según el enunciado. No mide el tiempo restante desde una predicción semanal ni la fecha real de cancelación. El análisis de las tres cohortes exigidas, el baseline y la intervención prioritaria se completa en [análisis de errores](analisis_consigna.md).
+La anticipación usa `hours_before_execution`: horas entre creación y ejecución programada según el enunciado. No mide el tiempo restante desde una predicción semanal ni la fecha real de cancelación. El análisis de las tres cohortes exigidas, el baseline y la intervención prioritaria se completa en la [notebook de resultados](../notebooks/02_resultados.ipynb).
 
 ## Datos que incorporaríamos, por prioridad
 

@@ -24,13 +24,12 @@ experiments/_prueba/
 # Artefacto >100 MiB: se publica su copia .csv.gz sin pérdida
 /experiments/seleccion/calibracion/resultados/predicciones_externas.csv
 
-# Contexto y estado del proyecto versionados; otros documentos internos, locales
+# Documentación y herramientas internas (se conservan localmente)
 /CLAUDE.md
 /TODO.md
-/docs/*
-!/docs/CONTEXTO.md
-!/docs/ENTREGA.md
-!/docs/ESTRUCTURA.md
+/docs/
+/reports/analisis_consigna.md
+/entrega/predictor_v2_Grupo_9.py.zip
 /reports/prompt_*.md
 /experiments/seleccion/analisis.py
 /experiments/seleccion/historico/

@@ -21,7 +21,7 @@
 # El baseline es la regresión logística calibrada sin GPU asignada; el final es HistGB.
 # Los resultados nuevos son descriptivos y posteriores a la búsqueda histórica.
 #
-# El informe completo está en `reports/analisis_consigna.md`. Para regenerar sus tablas,
+# Esta notebook contiene el análisis para la entrega. Para regenerar sus tablas,
 # ejecutar esta notebook desde el repo con el entorno del proyecto instalado.
 
 # %%
