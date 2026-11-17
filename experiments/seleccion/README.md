@@ -1,6 +1,6 @@
 # Calibración interna del punto de corte y robustez
 
-`calibracion.py` evalúa las configuraciones **fijas** de `parametros.json`. No elige modelos ni busca hiperparámetros, y nunca lee `data/raw/test.csv`. Reemplaza la parte de calibración y robustez del borrador `analisis.py`, que queda sin tocar (sus caches `logistic_*.npz` no se reutilizan).
+`calibracion.py` evalúa las configuraciones **fijas** de `parametros.json`. No elige modelos ni busca hiperparámetros, y nunca lee `data/raw/test.csv`. Reemplaza la parte de calibración y robustez del borrador archivado en `historico/analisis_borrador.py` (sus caches `logistic_*.npz` no se reutilizan). `analisis.py` es ahora una entrada desactivada que indica los reemplazos.
 
 ## Qué calcula
 

@@ -2,6 +2,10 @@
 
 Actualizado el 16 de noviembre de 2026. Este documento resume el contexto de trabajo necesario para continuar el proyecto; los informes y resultados originales se conservan como evidencia. No es una transcripción de conversaciones ni contiene credenciales.
 
+## Estado de preparación de la entrega
+
+Consultar `docs/ENTREGA.md` para los pendientes del enunciado y `docs/ESTRUCTURA.md` para el mapa de código vigente/histórico. El predictor autocontenido está en `entrega/predictor_v2_Grupo_9.py`, entrenado solo con train. Ya produjo predicciones en Colab, pero con una advertencia de sklearn 1.9.1 frente a 1.6.1: compatibilidad completa pendiente. La cátedra aclaró después que assigned/modificaciones pueden estar disponibles antes de la ejecución y que el test no es exclusivamente temporal. Las justificaciones históricas siguientes deben leerse con esa aclaración; no se modificó el candidato.
+
 ## Objetivo y datos
 
 TP3 de Machine Learning del ITBA, Grupo 9. Clasificación binaria de cancelación de reservas de GPU, target `canceled_job`; `no_show` cuenta como cancelación. Objetivo de competencia: maximizar BA, promedio de sensibilidad y especificidad.

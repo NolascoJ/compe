@@ -1,3 +1,5 @@
+> Plan histórico: las casillas y la frase «Nada de esto está ejecutado» reflejan el inicio del trabajo. Para el estado de entrega actual, consultar `docs/ENTREGA.md` y `docs/CONTEXTO.md`.
+
 # TODO · Comparación de clasificadores
 
 Plan para probar 10 clasificadores (de una lista original de 17; 7 quedan fuera por ahora, ver sección 7). **Nada de esto está ejecutado.** Primero se cierran las decisiones de la sección 0.

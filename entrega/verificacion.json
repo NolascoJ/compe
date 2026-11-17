@@ -1,0 +1,13 @@
+{
+  "status": "OK",
+  "rows_compared": 600,
+  "exact_scores": true,
+  "standalone_isolated_process": true,
+  "order_preserved": true,
+  "input_unchanged": true,
+  "assigned_optional": true,
+  "unknown_region_supported": true,
+  "missing_active_features_rejected": true,
+  "colab_verified": false,
+  "test_csv_accessed": false
+}
