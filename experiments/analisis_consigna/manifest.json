@@ -1,0 +1,23 @@
+{
+  "training_rows": 38274,
+  "models": [
+    "logistic",
+    "gradient_boosting",
+    "hist_gradient_boosting"
+  ],
+  "baseline": "logistic",
+  "assigned": false,
+  "scenario": "cv",
+  "external_folds": 5,
+  "retrained": false,
+  "test_csv_accessed": false,
+  "aligned_labels": true,
+  "shared_external_folds": true,
+  "confusion_counts_reconciled": true,
+  "historical_metrics_reproduced": true,
+  "sources": {
+    "data/raw/train.csv": "3a66602dadce693786294ab7fe37f9a6f9a03a101ab97fd439d713b4c76c496d",
+    "experiments/seleccion/calibracion/resultados/predicciones_externas.csv": "5a1bd2786372bfe28875dcb9425082fb96fc698d2d781e6fbc8cce4030ec0ce9"
+  },
+  "script_sha256": "50b9e6ee0e89de43fb8a8c995637564a16edaa2c3005fcea7772699c9b4c9bd4"
+}

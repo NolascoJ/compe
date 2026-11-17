@@ -24,10 +24,13 @@ experiments/_prueba/
 # Artefacto >100 MiB: se publica su copia .csv.gz sin pérdida
 /experiments/seleccion/calibracion/resultados/predicciones_externas.csv
 
-# Documentación y herramientas internas (se conservan localmente)
+# Contexto y estado del proyecto versionados; otros documentos internos, locales
 /CLAUDE.md
 /TODO.md
-/docs/
+/docs/*
+!/docs/CONTEXTO.md
+!/docs/ENTREGA.md
+!/docs/ESTRUCTURA.md
 /reports/prompt_*.md
 /experiments/seleccion/analisis.py
 /experiments/seleccion/historico/

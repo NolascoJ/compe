@@ -18,7 +18,7 @@ y = predictor_v2_Grupo_9(X)
 
 Devuelve un entero 0/1 por fila, conservando el orden de entrada. El artefacto actual fue entrenado únicamente con las 38.274 filas de train. El uso y las dependencias se detallan en [entrega/README.md](entrega/README.md).
 
-La prueba en Colab produjo predicciones, pero advirtió una diferencia entre sklearn 1.9.1 y 1.6.1. Falta comprobar la ejecución con versiones compatibles. También debe confirmarse que el evaluador entregue las columnas activas requeridas, incluidos los totales y `high_value_client`.
+El predictor también admite `predictor_v1_Grupo_9(X)`, con las mismas etiquetas 0/1, para el nombre de función del PDF. Se verificó en un entorno limpio local de Python 3.12.12 con las versiones exactas: 300 etiquetas y scores idénticos, sin advertencias. La prueba definitiva en Colab sigue pendiente; [esta notebook](entrega/validacion_colab.ipynb) instala las dependencias y registra la comprobación. También debe confirmarse que el evaluador entregue las columnas activas requeridas, incluidos los totales y `high_value_client`.
 
 ## Estructura
 
@@ -33,7 +33,7 @@ La prueba en Colab produjo predicciones, pero advirtió una diferencia entre skl
 | `src/compe/run.py` | Búsqueda y evaluación por modelo. |
 | `src/compe/resumen.py` | Tabla de resultados originales. |
 | `data/raw/` | Datos originales y metadatos del split. |
-| `notebooks/` | EDA en notebook y script. |
+| `notebooks/` | EDA y notebook de resultados, cohortes y decisión final. |
 | `experiments/<modelo>/` | Búsquedas, curvas, confirmaciones y predicciones. |
 | `experiments/seleccion/` | Calibración interna, ensembles y controles. |
 | `experiments/evaluacion_final_histgb/` | Evaluación del holdout ya realizada y artefacto entrenado. |
@@ -68,6 +68,16 @@ PYTHONPATH=src python experiments/adquisicion_datos/evidencia.py
 - [Uso del predictor](entrega/README.md).
 
 `requirements-lock.txt` registra el entorno de desarrollo histórico; `entrega/requirements.txt` fija las dependencias del predictor. Los rangos de `pyproject.toml` no garantizan compatibilidad con un modelo serializado. `scripts/restaurar_artefactos.py --check` verifica los archivos comprimidos sin restaurarlos.
+
+## Contexto y estado de entrega
+
+- [Contexto técnico y decisiones](docs/CONTEXTO.md).
+- [Requisitos completados y pendientes](docs/ENTREGA.md).
+- [Mapa del proyecto](docs/ESTRUCTURA.md).
+- [Análisis de errores y estrategia de intervención](reports/analisis_consigna.md).
+- [Notebook de resultados](notebooks/02_resultados.ipynb).
+
+La publicación del código no equivale al envío a la cátedra. Colab y la disponibilidad de las entradas activas requieren las comprobaciones indicadas en el estado de entrega.
 
 ## Resultados y límites
 

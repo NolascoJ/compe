@@ -17,14 +17,16 @@ Todo sale de TRAIN, con el corte interno de cada fold y sin GPU asignada; `test.
 |---|---:|---:|---:|---:|---:|
 | Sin historial previo del cliente | 91,2% | 83,3% | 81,6% | 98,2% | 99,0% |
 | Con historial previo | 8,8% | **98,4%** | 98,2% | 1,8% | 1,0% |
-| Anticipación de 0 a 7 | 13,6% | **61,4%** | **25,3%** | 20,6% | 10,9% |
-| Anticipación de 8 a 30 | 15,7% | 78,1% | 70,2% | 21,3% | 19,5% |
+| Anticipación de 0 a 7 horas | 13,6% | **61,4%** | **25,3%** | 20,6% | 10,9% |
+| Anticipación de 8 a 30 horas | 15,7% | 78,1% | 70,2% | 21,3% | 19,5% |
 | Con pedidos especiales | 39,9% | **70,5%** | **51,8%** | 63,8% | 50,3% |
 | Regiones distintas de PRT | 61,4% | 80,9% | 74,9% | 63,3% | 66,8% |
 | `no_show` (cancelados de hecho) | 1,1% | — | **44,6%** | 9,4% | 4,1% |
 | Sin `locked_allocation` | 83,9% | 79,9% | 74,4% | 100% | 99,9% |
 
 «Sin historial previo» significa `returning_client = 0`, sin cancelaciones previas y sin trabajos previos exitosos. La fila de regiones suma las frecuentes y las raras.
+
+La anticipación usa `hours_before_execution`: horas entre creación y ejecución programada según el enunciado. No mide el tiempo restante desde una predicción semanal ni la fecha real de cancelación. El análisis de las tres cohortes exigidas, el baseline y la intervención prioritaria se completa en [análisis de errores](analisis_consigna.md).
 
 ## Datos que incorporaríamos, por prioridad
 
@@ -38,7 +40,7 @@ Todo sale de TRAIN, con el corte interno de cada fold y sin GPU asignada; `test.
 ### 2. Eventos de la reserva con fecha
 **Qué:** la fecha de creación y la de cada modificación, qué cambió (fecha, recursos, cantidad de horas) y los días desde el último cambio. Hoy solo existe el conteo `resource_modifications`.
 
-**Por qué:** el modelo casi no detecta las cancelaciones de último momento. Con anticipación de 0 a 7 detecta el 25% de las cancelaciones (BA 61,4%), y entre 0 y 30 se acumula el 42% de los falsos negativos. Una reserva cancelada pronto suele mostrar actividad reciente que hoy no se ve.
+**Por qué:** el modelo detecta pocas cancelaciones entre las reservas creadas con poca anticipación. Con anticipación de 0 a 7 horas detecta el 25% de las cancelaciones (BA 61,4%), y entre 0 y 30 horas se acumula el 42% de los falsos negativos. Los eventos recientes podrían aportar información: es una hipótesis que requiere medir su disponibilidad y utilidad, no una causa demostrada por estos datos.
 
 ### 3. Señales de preparación cerca de la ejecución
 **Qué:** si se confirmó la reserva, si se cargaron los datos o la imagen del contenedor, si el pago o el depósito se acreditó de verdad, y la actividad del cliente en la plataforma en las 24 a 72 horas previas.
@@ -74,6 +76,6 @@ Se usa el mismo protocolo: folds agrupados, corte elegido con folds internos, y 
 **Adquisición de datos: más información, no más filas**
 - La curva de aprendizaje muestra unos +1 punto por cada duplicación de filas. El límite es la información de las variables.
 - **1. Historial del cliente** con un ID estable: con historial la BA es 98%, y sin historial están el 91% de las reservas y el 99% de los errores.
-- **2. Eventos con fecha y señales cercanas a la ejecución:** con menos de una semana de anticipación se detecta el 25% de las cancelaciones, y los `no_show` se detectan en un 45%.
+- **2. Eventos con fecha y señales cercanas a la ejecución:** con 0 a 7 horas de anticipación entre creación y ejecución se detecta el 25% de las cancelaciones, y los `no_show` se detectan en un 45%.
 - **3. Detalle de pedidos especiales y más datos fuera de PRT:** las cohortes con más error (BA de 70,5% y de 80,9%).
 - Toda variable nueva tiene que existir al momento de predecir y se acepta solo si mejora la CV más que la variación entre folds.

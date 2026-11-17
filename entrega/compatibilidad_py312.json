@@ -1,0 +1,34 @@
+{
+  "python": "3.12.12",
+  "platform": "macOS-15.7.3-arm64-arm-64bit",
+  "runtime": "local",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.8.0"
+  },
+  "expected_dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.8.0"
+  },
+  "predictor_sha256": "c8f9f8e8ad7c9ef554e45b3f58eebe4fa958e2a40d6bfe7a0353019b03147c2f",
+  "test_csv_accessed": false,
+  "retrained": false,
+  "status": "OK",
+  "rows_compared": 300,
+  "labels_match": true,
+  "max_score_error": 0.0,
+  "v1_v2_equivalent": true,
+  "order_preserved": true,
+  "input_unchanged": true,
+  "optional_columns_supported": true,
+  "missing_active_features_rejected": true,
+  "warnings": []
+}

@@ -1,7 +1,7 @@
 {
   "source": "experiments/evaluacion_final_histgb/predictor.joblib",
   "source_sha256": "f53bc3d0ad8e9e696da09d24431ccf4e6e3c1da4e91f41821f3f8eb614fcb2fb",
-  "file_sha256": "31f103cb16701159fadc8d725faf68534709e3425267d2e802f1b3b59711ca2a",
+  "file_sha256": "c8f9f8e8ad7c9ef554e45b3f58eebe4fa958e2a40d6bfe7a0353019b03147c2f",
   "threshold": 0.38294747099493937,
   "training_rows": 38274,
   "training_scope": "train_only",
@@ -43,6 +43,11 @@
     "organization_id",
     "total_processes",
     "total_gpu_hours"
+  ],
+  "entry_points": [
+    "predictor_v1_Grupo_9",
+    "predictor_v2_Grupo_9",
+    "predictor"
   ],
   "retrained": false,
   "colab_verified": false

@@ -131,6 +131,11 @@ def predictor_v2_Grupo_9(X):
 
 predictor = predictor_v2_Grupo_9
 
+
+def predictor_v1_Grupo_9(X):
+    """Nombre solicitado por el enunciado; mismo modelo, corte y salida que v2."""
+    return predictor_v2_Grupo_9(X)
+
 _PAYLOAD_SHA256 = '9ce6a4c6d02f11e074bc16c66b38dd817d0ef7a80cd13a2f6de47d629c371c34'
 _MODEL_DATA = b"""
 eNrsvQdcE0vXPx56R6qAIkVRERtSFEXdICglCEixawgQIAgBgShYsbeoqLl2BXulKCIqygZU7IpdsaHYK/auv53sLE4wDHrvfd7/+7x/8eOebJmdcuacOec7

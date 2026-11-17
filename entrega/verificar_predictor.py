@@ -22,6 +22,7 @@ def main():
     q = m.probabilidades_v2_Grupo_9(x)
     np.testing.assert_array_equal(p, q)
     np.testing.assert_array_equal(m.predictor(x), p >= b['threshold'])
+    np.testing.assert_array_equal(m.predictor_v1_Grupo_9(x), m.predictor_v2_Grupo_9(x))
     pd.testing.assert_frame_equal(x, before)
     xx = x.drop(columns=['assigned_gpu_type', 'canceled_job', 'execution_status', 'execution_status_date'])
     np.testing.assert_array_equal(m.probabilidades_v2_Grupo_9(xx), p)
@@ -45,7 +46,7 @@ def main():
         env.pop('PYTHONPATH', None)
         code = "import sys;sys.path.insert(0,'.');import pandas as pd;from predictor_v2_Grupo_9 import predictor;print(predictor(pd.read_pickle('input.pkl')).tolist());assert not any(k=='compe' or k.startswith('compe.') for k in sys.modules)"
         subprocess.run([sys.executable, '-I', '-c', code], cwd=tmp, env=env, check=True)
-    report = dict(status='OK', rows_compared=600, exact_scores=True, standalone_isolated_process=True, order_preserved=True, input_unchanged=True, assigned_optional=True, unknown_region_supported=True, missing_active_features_rejected=True, colab_verified=False, test_csv_accessed=False)
+    report = dict(status='OK', rows_compared=600, exact_scores=True, v1_v2_equivalent=True, standalone_isolated_process=True, order_preserved=True, input_unchanged=True, assigned_optional=True, unknown_region_supported=True, missing_active_features_rejected=True, colab_verified=False, test_csv_accessed=False)
     (ROOT / 'entrega/verificacion.json').write_text(json.dumps(report, indent=2))
     print(json.dumps(report, indent=2))
 if __name__ == '__main__':

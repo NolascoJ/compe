@@ -2,6 +2,7 @@
   "status": "OK",
   "rows_compared": 600,
   "exact_scores": true,
+  "v1_v2_equivalent": true,
   "standalone_isolated_process": true,
   "order_preserved": true,
   "input_unchanged": true,
