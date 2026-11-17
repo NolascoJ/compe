@@ -1,19 +1,18 @@
-"""HistGB Grupo 9 autocontenido; no entrena ni necesita archivos externos.
+"""Predictor de cancelaciones GPU · Grupo 9.
 Función: predictor_v2_Grupo_9(X) -> ndarray 0/1, en orden de entrada.
-Artefacto evaluado: entrenado SOLO con train (38.274 filas), no train+test.
+Entrenado con 38.274 filas de train; umbral fijo.
 Dependencias verificadas al empaquetar: {'numpy': '2.5.4', 'pandas': '3.1.1', 'scipy': '1.18.1', 'scikit-learn': '1.9.1', 'joblib': '1.6.0', 'threadpoolctl': '3.8.0'}.
-Usar esas versiones para cargar el modelo serializado; Colab pendiente de prueba.
+Carga entre versiones de sklearn no soportada; usar las dependencias indicadas.
 """
 
-# Ejemplo de uso (con las dependencias indicadas instaladas previamente):
+# Ejemplo de uso:
 # import pandas as pd
 # from predictor_v2_Grupo_9 import predictor_v2_Grupo_9
 #
-# X = pd.read_csv("reservas_activas.csv")  # Columnas originales requeridas.
+# X = pd.read_csv("reservas_activas.csv")
 # y_pred = predictor_v2_Grupo_9(X)
 # assert len(y_pred) == len(X)
-# # y_pred[i]: 1 = cancelación, 0 = no cancelación, en el orden de X.
-# # El modelo ya está entrenado; esta llamada solo realiza inferencia.
+# # 1 = cancelación; 0 = no cancelación. Se conserva el orden.
 
 import sys as _sys
 if __name__ == '__main__' and '--instalar-dependencias' in _sys.argv:
@@ -108,14 +107,14 @@ def _entrada(X):
     missing = [c for c in COLUMNAS_REQUERIDAS if c not in X.columns]
     if missing:
         raise ValueError('Faltan entradas utilizadas por el modelo: ' + ', '.join(missing))
-    # Exact order of original training columns; extra/target/leak columns ignored.
+    # Seleccionar entradas en el orden usado al entrenar.
     out = X.loc[:, COLUMNAS_REQUERIDAS].copy()
-    # Historical preprocessing drops this column even though it is unused.
+    # La transformación original exige esta columna para descartarla.
     out['assigned_gpu_type'] = '(no_utilizado)'
     return out
 
 def probabilidades_v2_Grupo_9(X):
-    """Probabilidad de canceled_job=1 por fila; no ajusta umbrales."""
+    """Probabilidad de cancelación por fila."""
     frame = _entrada(X)
     if len(frame) == 0:
         return np.empty(0, dtype=float)
@@ -130,7 +129,6 @@ def predictor_v2_Grupo_9(X):
     """1=cancelación, 0=no cancelación; conserva el orden; no modifica X."""
     return (probabilidades_v2_Grupo_9(X) >= UMBRAL).astype(np.int8)
 
-# Alias para evaluadores que requieren exactamente predictor(X).
 predictor = predictor_v2_Grupo_9
 
 _PAYLOAD_SHA256 = '9ce6a4c6d02f11e074bc16c66b38dd817d0ef7a80cd13a2f6de47d629c371c34'

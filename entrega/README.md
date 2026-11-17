@@ -1,66 +1,60 @@
-# Predictor HistGB Grupo 9
+# Predictor HistGB · Grupo 9
 
-El archivo que se comparte es **predictor_v2_Grupo_9.py**. Contiene preprocesamiento y modelo entrenado; no necesita el repo ni archivos auxiliares, no entrena ni accede a internet. Dependencias en requirements.txt (no usa CatBoost).
+Archivo para inferencia: **predictor_v2_Grupo_9.py**. Incluye el preprocesamiento y un HistGradientBoosting entrenado con las 38.274 filas de train. No reentrena al predecir y no necesita el repositorio ni archivos de modelo externos.
 
-Este artefacto conserva el modelo evaluado, **entrenado con las 38.274 filas de train** y umbral 0.38294747099493937. No es un nuevo ajuste con train+test. Su evaluación existente de holdout es 85,09% BA; esa cifra no se midió otra vez durante el empaquetado y no garantiza el test oculto.
+Umbral fijo: **0,38294747099493937**. La evaluación previa del holdout interno obtuvo BA 85,09%; no predice el rendimiento sobre el conjunto oculto de la competencia.
 
-## Prueba local
+## Uso
 
-Desde la raíz del repo, usando el entorno existente:
-
-```bash
-OMP_NUM_THREADS=2 PYTHONPATH=src .venv/bin/python entrega/verificar_predictor.py
-.venv/bin/python entrega/probar_predictor.py data/raw/train.csv /tmp/predicciones_histgb.csv
-```
-
-El segundo comando genera predicciones; predecir train no es una evaluación independiente del rendimiento. Si la salida ya existe, elegir otro nombre.
-
-También se puede usar desde Python:
+Con el .py en la misma carpeta:
 
 ```python
 import pandas as pd
 from predictor_v2_Grupo_9 import predictor_v2_Grupo_9
-X = pd.read_csv('datos.csv')
+
+X = pd.read_csv("reservas_activas.csv")
 y = predictor_v2_Grupo_9(X)
 ```
 
-Devuelve ndarray de enteros 0/1 en orden original. 1=cancelación. `predictor(X)` es un alias con la misma salida. `probabilidades_v2_Grupo_9(X)` devuelve probabilidades de clase 1.
+`y` es un ndarray 0/1, con una etiqueta por fila en el orden original. `predictor(X)` es un alias; `probabilidades_v2_Grupo_9(X)` devuelve probabilidades de cancelación. Las columnas extras, incluido el target y las variables de estado, se ignoran.
 
-## Colab
+## Dependencias
 
-Subir predictor_v2_Grupo_9.py y ejecutar en un entorno compatible con sus dependencias:
+Las versiones del artefacto están en `requirements.txt`. Instalarlas antes de importar el modelo:
 
-```python
-%pip install numpy==2.5.4 pandas==3.1.1 scipy==1.18.1 scikit-learn==1.9.1 joblib==1.6.0 threadpoolctl==3.8.0
+```sh
+python -m pip install -r entrega/requirements.txt
 ```
 
-Ver requirements.txt para las versiones exactas del empaquetado; si difieren del ejemplo, usar las de ese archivo. Reiniciar el runtime después de instalar si ya había importado las librerías. La disponibilidad de esas versiones depende del Python del runtime. **La ejecución real en Colab está pendiente**; no asumir compatibilidad de un pickle entre versiones de sklearn. El entorno verificado localmente usa Python 3.14.2.
+También se pueden instalar desde el propio archivo:
 
-## Entradas
-
-Recibe las columnas originales como DataFrame. COLUMNAS_REQUERIDAS dentro del .py enumera las entradas activas. Ignora columnas extras y las etiquetas/columnas con fuga. Assigned y execution_week no son obligatorias. Las regiones nuevas se mapean a otros; conserva las reglas aprendidas de preprocesamiento.
-
-No acepta silenciosamente la ausencia de queue_wait_time, resource_modifications, high_value_client, total_gpu_hours, total_processes u otra entrada activa. Si el evaluador solo proporciona las 25 entradas de la primera entrega, hay que resolver esa diferencia antes del envío. No se inventan features faltantes ni se derivan con reglas no verificadas.
-
-El objeto original descartaba assigned exigiendo que existiera. El wrapper selecciona entradas en orden de entrenamiento y agrega una columna assigned constante que el preprocesamiento descarta: no entra al estimador. Esta corrección se verificó comparando exactamente los scores con los del objeto original. No se modificaron estadísticas aprendidas ni hiperparámetros.
-
-## Archivos
-
-- predictor_v2_Grupo_9.py: artefacto autocontenido para compartir.
-- probar_predictor.py: CLI para leer CSV y guardar probabilidades/predicciones.
-- construir_predictor.py: reconstrucción reproducible desde el artefacto original, sin reentrenar.
-- verificar_predictor.py y verificacion.json: pruebas de equivalencia e independencia del repo, usando train solamente.
-- manifiesto.json: hashes del archivo y modelo fuente, columnas, versiones y alcance del entrenamiento.
-
-No cargar archivos pickle/.py de fuentes desconocidas. El checksum interno comprueba integridad del payload, no prueba seguridad de un archivo recibido de terceros.
-
-## Instalar dependencias desde el mismo archivo
-
-El .py incorpora las versiones exactas y una opción explícita de instalación, ejecutada antes de importar numpy/pandas/sklearn:
-
-```python
-# Celda de Colab, después de subir el archivo actualizado:
-!python predictor_v2_Grupo_9.py --instalar-dependencias
+```sh
+python predictor_v2_Grupo_9.py --instalar-dependencias
 ```
 
-Si pip termina sin errores, reiniciar la sesión de ejecución y después importar el predictor y probarlo. Si las versiones no están disponibles para el Python de Colab, la instalación fallará de forma visible; no usar otra versión de sklearn silenciosamente. Importar el predictor o llamar a predictor(X) no instala paquetes. No se verificó aún la instalación de estas versiones en el runtime de la cátedra.
+En Colab, anteponer `!` al comando y reiniciar la sesión tras instalar. La instalación depende de la disponibilidad de esas versiones para el Python del runtime. Importar el predictor no instala paquetes.
+
+El entorno local usa Python 3.14.2 y sklearn 1.9.1. La prueba con sklearn 1.6.1 en Colab produjo predicciones, pero emitió avisos de incompatibilidad. Falta validar el entorno definitivo; no ocultar esos avisos ni asumir portabilidad del pickle entre versiones.
+
+## Esquema de entrada
+
+`COLUMNAS_REQUERIDAS` enumera las entradas activas. Se usan los nombres originales, incluidos `resource_modifications`, `queue_wait_time`, `total_gpu_hours`, `total_processes` y `high_value_client`. Las entradas faltantes generan un error; no se sustituyen por ceros.
+
+`assigned_gpu_type` y `execution_week` no son obligatorias. El wrapper agrega un valor auxiliar de assigned que el preprocesamiento descarta, para compatibilidad con la transformación histórica. No entra al estimador. Las categorías nuevas se asignan a `otros` usando el vocabulario aprendido.
+
+## Herramientas
+
+Desde la raíz del proyecto:
+
+```sh
+OMP_NUM_THREADS=2 PYTHONPATH=src .venv/bin/python entrega/verificar_predictor.py
+.venv/bin/python entrega/probar_predictor.py entrega/dataset_prueba_original_300.csv /tmp/predicciones_histgb.csv
+```
+
+El ejemplo contiene 100 filas reales de train repetidas tres veces; sirve para probar carga y salida, no para medir generalización. `predicciones_esperadas_prueba_300.csv` permite comparar la salida.
+
+- `construir_predictor.py`: empaqueta el artefacto existente, sin entrenar.
+- `verificar_predictor.py`: compara scores con el pipeline original y comprueba carga aislada, orden e invariancia del lote.
+- `probar_predictor.py`: guarda probabilidades y etiquetas desde un CSV, sin sobrescribir una salida existente.
+- `manifiesto.json`: origen, hashes, columnas y versiones.
+- `verificacion.json`: resultado de la verificación local.

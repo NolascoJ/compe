@@ -1,53 +1,74 @@
-# TP3 · Machine Learning · Grupo 9
+# TP3 · Predicción de cancelaciones · Grupo 9
 
-Predicción de cancelaciones de reservas GPU (`canceled_job`). Métrica principal: balanced accuracy (BA); métrica complementaria: ROC-AUC.
+Clasificación de reservas GPU: `canceled_job=1` indica cancelación o no ejecución. Se usa balanced accuracy (BA) como métrica principal y ROC-AUC como complemento.
 
-El predictor elegido es **HistGradientBoosting**, 100 iteraciones y 31 hojas, sin GPU asignada ni `gpu_changed`, con umbral fijo **0,38294747099493937**. BA externa histórica: **84,83%**; holdout interno ya evaluado: **85,09%**. El test oculto de la competencia es un conjunto distinto.
+El modelo seleccionado es HistGradientBoosting: 100 iteraciones, 31 hojas y umbral **0,38294747099493937**. Excluye `assigned_gpu_type` y `gpu_changed`. Obtuvo **84,83% de BA en validación externa** y **85,09% en el holdout interno**, distinto del conjunto oculto de la competencia.
 
-## Para la entrega
+## Predictor
 
-- **Archivo predictor:** [entrega/predictor_v2_Grupo_9.py](entrega/predictor_v2_Grupo_9.py). Autocontenido; recibe un DataFrame y devuelve un 0/1 por fila en orden. Incluye el modelo entrenado solo con train; no es un reentrenamiento con train+test.
-- **Uso, dependencias y prueba:** [entrega/README.md](entrega/README.md).
-- **Estado y pendientes del TP:** [docs/ENTREGA.md](docs/ENTREGA.md).
-- **Mapa del código y archivos históricos:** [docs/ESTRUCTURA.md](docs/ESTRUCTURA.md).
-- **Presentación de trabajo:** `output/defensa_tp3_v3/`; las variantes anteriores son históricas. Estos directorios están excluidos de Git por la configuración existente; comprobar que la versión enviada sea la correcta.
+[entrega/predictor_v2_Grupo_9.py](entrega/predictor_v2_Grupo_9.py) contiene el modelo y el preprocesamiento. No requiere archivos auxiliares para predecir, una vez instaladas sus dependencias.
 
-El archivo ya produjo predicciones en Colab con sklearn 1.6.1, pero emitió advertencias al cargar un modelo de sklearn 1.9.1. **La compatibilidad de versiones sigue pendiente.** El esquema de entradas también debe cotejarse con el evaluador: el predictor requiere los dos totales y `high_value_client`, no enumerados en el diccionario del PDF.
+```python
+import pandas as pd
+from predictor_v2_Grupo_9 import predictor_v2_Grupo_9
 
-## Instalación para desarrollo
+X = pd.read_csv("reservas_activas.csv")
+y = predictor_v2_Grupo_9(X)
+```
+
+Devuelve un entero 0/1 por fila, conservando el orden de entrada. El artefacto actual fue entrenado únicamente con las 38.274 filas de train. El uso y las dependencias se detallan en [entrega/README.md](entrega/README.md).
+
+La prueba en Colab produjo predicciones, pero advirtió una diferencia entre sklearn 1.9.1 y 1.6.1. Falta comprobar la ejecución con versiones compatibles. También debe confirmarse que el evaluador entregue las columnas activas requeridas, incluidos los totales y `high_value_client`.
+
+## Estructura
+
+| Ruta | Contenido |
+| --- | --- |
+| `src/compe/config.py` | Columnas, rutas y semilla. |
+| `src/compe/data.py` | Carga de datos y grupos de entradas idénticas. |
+| `src/compe/features.py` | Nulos, categorías raras y transformaciones aprendidas en entrenamiento. |
+| `src/compe/pipeline.py` | Preprocesamiento por familia de modelo. |
+| `src/compe/models.py` | Estimadores, espacios de búsqueda y criterio de simplicidad. |
+| `src/compe/validation.py` | Folds agrupados, predicciones OOF, umbrales y métricas. |
+| `src/compe/run.py` | Búsqueda y evaluación por modelo. |
+| `src/compe/resumen.py` | Tabla de resultados originales. |
+| `data/raw/` | Datos originales y metadatos del split. |
+| `notebooks/` | EDA en notebook y script. |
+| `experiments/<modelo>/` | Búsquedas, curvas, confirmaciones y predicciones. |
+| `experiments/seleccion/` | Calibración interna, ensembles y controles. |
+| `experiments/evaluacion_final_histgb/` | Evaluación del holdout ya realizada y artefacto entrenado. |
+| `entrega/` | Predictor autocontenido, construcción, verificación y ejemplo de entrada. |
+| `reports/` | EDA, selección, controles y evaluación final. |
+| `output/revision_modelos_20261116/` | Auditoría y controles adicionales sobre train. |
+| `scripts/` y `artifacts/` | Restauración de archivos comprimidos y manifiesto de integridad. |
+
+Las herramientas de `entrega/` se ejecutan explícitamente: `construir_predictor.py` empaqueta el modelo existente; `verificar_predictor.py` comprueba equivalencia; `probar_predictor.py` lee un CSV y guarda probabilidades y etiquetas. El CSV de 300 filas contiene datos de entrenamiento repetidos y sirve solo para probar la interfaz.
+
+## Desarrollo y reproducción
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
 python scripts/restaurar_artefactos.py
-```
 
-`pyproject.toml` declara dependencias de desarrollo con rangos; no fija el entorno de inferencia. `requirements-lock.txt` registra el entorno local histórico (Python 3.14.2); `entrega/requirements.txt` contiene las versiones del predictor empaquetado. No asumir compatibilidad de modelos serializados entre versiones.
-
-Un CSV grande se conserva también como `.csv.gz`, sin pérdida. `scripts/restaurar_artefactos.py` verifica los hashes del manifiesto antes de restaurarlo; `--check` verifica sin restaurar. Si Git LFS gestiona esos archivos en otra copia del repo, conservar también su configuración.
-
-## Reproducir o consultar resultados
-
-```sh
-# Listar modelos, sin entrenar:
 PYTHONPATH=src python -m compe.run --listar
-
-# Ver planes, sin ejecutar ajustes:
 PYTHONPATH=src python experiments/seleccion/calibracion.py todo --dry-run
 PYTHONPATH=src python experiments/seleccion/stacking.py todo --dry-run
 ```
 
-Los comandos largos y de verificación están en las guías de cada etapa, enlazadas desde [docs/ESTRUCTURA.md](docs/ESTRUCTURA.md). Algunos scripts históricos regeneran informes o ajustan modelos al ejecutarse: revisar su alcance antes de usarlos.
+- [Calibración y robustez](experiments/seleccion/README.md).
+- [Promedio y stacking](experiments/seleccion/README_STACKING.md).
+- [Uso del predictor](entrega/README.md).
 
-## Evidencia y decisiones
+`requirements-lock.txt` registra el entorno de desarrollo histórico; `entrega/requirements.txt` fija las dependencias del predictor. Los rangos de `pyproject.toml` no garantizan compatibilidad con un modelo serializado. `scripts/restaurar_artefactos.py --check` verifica los archivos comprimidos sin restaurarlos.
 
-- [Contexto y revisión adicional del 16/11](docs/CONTEXTO.md).
-- [EDA](reports/eda_decisiones.md).
-- [Selección y ensembles](reports/seleccion_final_stacking.md).
-- [Control comparable del gap](reports/control_gap_sin_assigned.md).
-- [Evaluación final histórica](reports/evaluacion_final_histgb.md).
-- [Auditoría adicional sobre train](output/revision_modelos_20261116/informe.md).
-- `CLAUDE.md`: reglas del proyecto. `TODO.md`: plan histórico; su estado no refleja todas las corridas terminadas.
+## Resultados y límites
 
-El preprocesamiento se aprende dentro de cada entrenamiento. Target, estado y fecha de estado no entran al predictor. El holdout interno ya fue consultado: no volver a usarlo para seleccionar alternativas como si fuera una evaluación independiente nueva. Los resultados y manifiestos históricos se conservan como evidencia.
+- [Decisiones del EDA](reports/eda_decisiones.md).
+- [Selección final y ensembles](reports/seleccion_final_stacking.md).
+- [Comparación del gap](reports/control_gap_sin_assigned.md).
+- [Evaluación del holdout](reports/evaluacion_final_histgb.md).
+- [Auditoría adicional](output/revision_modelos_20261116/informe.md).
+
+El preprocesamiento y el umbral se ajustan dentro del entrenamiento de cada partición. Target, estado y fecha de estado se excluyen de las entradas. La elección histórica de hiperparámetros no fue completamente anidada. El holdout ya fue consultado y no es una evaluación independiente nueva para variantes posteriores. El modelo presenta caídas ante cambios de distribución; el resultado local no garantiza la puntuación de competencia.
